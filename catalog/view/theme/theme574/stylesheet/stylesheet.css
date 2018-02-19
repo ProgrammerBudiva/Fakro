@@ -484,7 +484,7 @@ div.required .control-label:before {
   /*background: url(../image/header-bg.png) repeat-x center bottom #3aa935;*/
   /*background: url(../image/header-bg.png) repeat-x center bottom;*/
   background: white;
-  padding: 30px 0 0 0; }
+  padding: 10px 0 0 0; }
   .header .toggle, .header .button-account > span {
     -moz-transition: 0.3s all ease;
     -o-transition: 0.3s all ease;
@@ -945,7 +945,7 @@ div.required .control-label:before {
     margin: 0;
     font-size: 14px;
     line-height: 20px;
-    width: 113px;
+    width: 170px;
     height: 20px;
     padding: 11px 14px;
     background: transparent;
@@ -1341,7 +1341,7 @@ div.required .control-label:before {
     clear: both; }
 
 .nav__primary {
-  margin: 21px 0 18px;
+  margin: 5px 0 21px 0;
   font: 300 14px/16px "Ubuntu", sans-serif;
   /*background: url(../image/menu-shadow.png) repeat-x center bottom; */
   background: #3aa935;
@@ -1352,7 +1352,7 @@ div.required .control-label:before {
     padding: 0; }
   .nav__primary .menu > li {
     float: left;
-    padding: 30px 15px 29px; }
+    padding: 25px 15px 23px; }
     .nav__primary .menu > li:first-child {
       padding-left: 0; }
     .nav__primary .menu > li > a {
