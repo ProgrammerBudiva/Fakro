@@ -1,0 +1,186 @@
+2018-02-16 8:28:51 - PHP Notice:  Undefined variable: cart in /var/www/fakro1/catalog/view/theme/theme574/template/common/header.tpl on line 140
+2018-02-16 8:28:52 - PHP Notice:  Undefined variable: cart in /var/www/fakro1/catalog/view/theme/theme574/template/common/header.tpl on line 140
+2018-02-16 8:57:28 - PHP Notice:  Undefined variable: compare in /var/www/fakro1/catalog/view/theme/theme574/template/common/header.tpl on line 141
+2018-02-16 8:57:29 - PHP Notice:  Undefined variable: compare in /var/www/fakro1/catalog/view/theme/theme574/template/common/header.tpl on line 141
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/admin//controller/catalog/ocfilter.php): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/admin//controller/module/ocfilter.php): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/admin//model/catalog/ocfilter.php): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/catalog//controller/feed/ocfilter_sitemap.php): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/catalog//controller/module/ocfilter.php): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/catalog//model/catalog/ocfilter.php): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/admin//language/en-us/catalog/ocfilter.php): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/admin//language/en-us/module/ocfilter.php): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/admin//language/english/catalog/ocfilter.php): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/admin//language/english/module/ocfilter.php): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/admin//language/ru/catalog/ocfilter.php): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/admin//language/ru/module/ocfilter.php): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/admin//language/ru-ru/catalog/ocfilter.php): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/admin//language/ru-ru/module/ocfilter.php): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/admin//language/russian/catalog/ocfilter.php): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/admin//language/russian/module/ocfilter.php): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/admin//language/ua/catalog/ocfilter.php): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/admin//language/ua/module/ocfilter.php): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/admin//language/ukrainian/catalog/ocfilter.php): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/admin//language/ukrainian/module/ocfilter.php): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/admin//view/image/ocfilter/delete-value.png): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/admin//view/image/ocfilter/select-text.png): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/admin//view/image/ocfilter/sort-handler.png): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/admin//view/javascript/ocfilter/ocfilter.js): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/admin//view/stylesheet/ocfilter/ocfilter.css): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/admin//view/template/catalog/ocfilter_form.tpl): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/admin//view/template/catalog/ocfilter_list.tpl): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/admin//view/template/catalog/ocfilter_page_form.tpl): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/admin//view/template/catalog/ocfilter_page_list.tpl): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/admin//view/template/module/ocfilter.tpl): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/catalog//language/en-us/module/ocfilter.php): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/catalog//language/english/module/ocfilter.php): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/catalog//language/ru/module/ocfilter.php): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/catalog//language/ru-ru/module/ocfilter.php): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/catalog//language/russian/module/ocfilter.php): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/catalog//language/ua/module/ocfilter.php): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/catalog//language/ukrainian/module/ocfilter.php): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/catalog//view/javascript/ocfilter/nouislider.min.css): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/catalog//view/javascript/ocfilter/nouislider.min.js): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/catalog//view/javascript/ocfilter/ocfilter.js): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/catalog//view/theme/default/image/ocfilter/diagram-bg-repeat.png): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/catalog//view/theme/default/stylesheet/ocfilter/ocfilter.css): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:41:43 - PHP Warning:  copy(/var/www/fakro1/catalog//view/theme/default/template/module/ocfilter.tpl): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/admin//controller/catalog/ocfilter.php): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/admin//controller/module/ocfilter.php): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/admin//model/catalog/ocfilter.php): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/catalog//controller/feed/ocfilter_sitemap.php): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/catalog//controller/module/ocfilter.php): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/catalog//model/catalog/ocfilter.php): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/admin//language/en-us/catalog/ocfilter.php): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/admin//language/en-us/module/ocfilter.php): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/admin//language/english/catalog/ocfilter.php): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/admin//language/english/module/ocfilter.php): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/admin//language/ru/catalog/ocfilter.php): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/admin//language/ru/module/ocfilter.php): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/admin//language/ru-ru/catalog/ocfilter.php): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/admin//language/ru-ru/module/ocfilter.php): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/admin//language/russian/catalog/ocfilter.php): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/admin//language/russian/module/ocfilter.php): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/admin//language/ua/catalog/ocfilter.php): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/admin//language/ua/module/ocfilter.php): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/admin//language/ukrainian/catalog/ocfilter.php): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/admin//language/ukrainian/module/ocfilter.php): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/admin//view/image/ocfilter/delete-value.png): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/admin//view/image/ocfilter/select-text.png): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/admin//view/image/ocfilter/sort-handler.png): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/admin//view/javascript/ocfilter/ocfilter.js): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/admin//view/stylesheet/ocfilter/ocfilter.css): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/admin//view/template/catalog/ocfilter_form.tpl): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/admin//view/template/catalog/ocfilter_list.tpl): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/admin//view/template/catalog/ocfilter_page_form.tpl): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/admin//view/template/catalog/ocfilter_page_list.tpl): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/admin//view/template/module/ocfilter.tpl): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/catalog//language/en-us/module/ocfilter.php): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/catalog//language/english/module/ocfilter.php): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/catalog//language/ru/module/ocfilter.php): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/catalog//language/ru-ru/module/ocfilter.php): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/catalog//language/russian/module/ocfilter.php): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/catalog//language/ua/module/ocfilter.php): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/catalog//language/ukrainian/module/ocfilter.php): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/catalog//view/javascript/ocfilter/nouislider.min.css): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/catalog//view/javascript/ocfilter/nouislider.min.js): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/catalog//view/javascript/ocfilter/ocfilter.js): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  mkdir(): Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 277
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/catalog//view/theme/default/image/ocfilter/diagram-bg-repeat.png): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/catalog//view/theme/default/stylesheet/ocfilter/ocfilter.css): failed to open stream: No such file or directory in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:42:29 - PHP Warning:  copy(/var/www/fakro1/catalog//view/theme/default/template/module/ocfilter.tpl): failed to open stream: Permission denied in /var/www/fakro1/system/modification/admin/controller/extension/installer.php on line 284
+2018-02-19 7:43:28 - PHP Notice:  Undefined variable: ocfilter_stock_status_type in /var/www/fakro1/admin/view/template/module/ocfilter.tpl on line 205
+2018-02-19 7:43:28 - PHP Notice:  Undefined variable: ocfilter_stock_status_type in /var/www/fakro1/admin/view/template/module/ocfilter.tpl on line 205
+2018-02-19 7:43:28 - PHP Notice:  Undefined variable: ocfilter_stock_status_type in /var/www/fakro1/admin/view/template/module/ocfilter.tpl on line 205
+2018-02-19 7:43:35 - PHP Notice:  Undefined variable: ocfilter_stock_status_type in /var/www/fakro1/admin/view/template/module/ocfilter.tpl on line 205
+2018-02-19 7:43:35 - PHP Notice:  Undefined variable: ocfilter_stock_status_type in /var/www/fakro1/admin/view/template/module/ocfilter.tpl on line 205
+2018-02-19 7:43:35 - PHP Notice:  Undefined variable: ocfilter_stock_status_type in /var/www/fakro1/admin/view/template/module/ocfilter.tpl on line 205
+2018-02-19 7:44:44 - PHP Notice:  Undefined variable: ocfilter_stock_status_type in /var/www/fakro1/admin/view/template/module/ocfilter.tpl on line 205
+2018-02-19 7:44:44 - PHP Notice:  Undefined variable: ocfilter_stock_status_type in /var/www/fakro1/admin/view/template/module/ocfilter.tpl on line 205
+2018-02-19 7:44:44 - PHP Notice:  Undefined variable: ocfilter_stock_status_type in /var/www/fakro1/admin/view/template/module/ocfilter.tpl on line 205
+2018-02-19 7:45:25 - PHP Notice:  Undefined variable: ocfilter_stock_status_type in /var/www/fakro1/admin/view/template/module/ocfilter.tpl on line 205
+2018-02-19 7:45:25 - PHP Notice:  Undefined variable: ocfilter_stock_status_type in /var/www/fakro1/admin/view/template/module/ocfilter.tpl on line 205
+2018-02-19 7:45:25 - PHP Notice:  Undefined variable: ocfilter_stock_status_type in /var/www/fakro1/admin/view/template/module/ocfilter.tpl on line 205
+2018-02-19 7:45:47 - PHP Notice:  Undefined variable: ocfilter_stock_status_type in /var/www/fakro1/admin/view/template/module/ocfilter.tpl on line 205
+2018-02-19 7:45:47 - PHP Notice:  Undefined variable: ocfilter_stock_status_type in /var/www/fakro1/admin/view/template/module/ocfilter.tpl on line 205
+2018-02-19 7:45:47 - PHP Notice:  Undefined variable: ocfilter_stock_status_type in /var/www/fakro1/admin/view/template/module/ocfilter.tpl on line 205
+2018-02-19 7:49:32 - PHP Notice:  Undefined variable: ocfilter_stock_status_type in /var/www/fakro1/admin/view/template/module/ocfilter.tpl on line 205
+2018-02-19 7:49:32 - PHP Notice:  Undefined variable: ocfilter_stock_status_type in /var/www/fakro1/admin/view/template/module/ocfilter.tpl on line 205
+2018-02-19 7:49:32 - PHP Notice:  Undefined variable: ocfilter_stock_status_type in /var/www/fakro1/admin/view/template/module/ocfilter.tpl on line 205
+2018-02-19 7:50:25 - PHP Notice:  Undefined variable: ocfilter_stock_status_type in /var/www/fakro1/admin/view/template/module/ocfilter.tpl on line 205
+2018-02-19 7:50:25 - PHP Notice:  Undefined variable: ocfilter_stock_status_type in /var/www/fakro1/admin/view/template/module/ocfilter.tpl on line 205
+2018-02-19 7:50:25 - PHP Notice:  Undefined variable: ocfilter_stock_status_type in /var/www/fakro1/admin/view/template/module/ocfilter.tpl on line 205
+2018-02-19 7:53:19 - PHP Notice:  Undefined variable: ocfilter_stock_status_type in /var/www/fakro1/admin/view/template/module/ocfilter.tpl on line 205
+2018-02-19 7:53:19 - PHP Notice:  Undefined variable: ocfilter_stock_status_type in /var/www/fakro1/admin/view/template/module/ocfilter.tpl on line 205
+2018-02-19 7:53:19 - PHP Notice:  Undefined variable: ocfilter_stock_status_type in /var/www/fakro1/admin/view/template/module/ocfilter.tpl on line 205
+2018-02-19 9:09:25 - PHP Notice:  Array to string conversion in /var/www/fakro1/catalog/view/theme/theme574/template/common/footer.tpl on line 73
+2018-02-19 9:09:25 - PHP Notice:  Array to string conversion in /var/www/fakro1/catalog/view/theme/theme574/template/common/footer.tpl on line 73
+2018-02-19 9:09:25 - PHP Notice:  Array to string conversion in /var/www/fakro1/catalog/view/theme/theme574/template/common/footer.tpl on line 73
+2018-02-19 9:09:25 - PHP Notice:  Array to string conversion in /var/www/fakro1/catalog/view/theme/theme574/template/common/footer.tpl on line 73
+2018-02-19 9:09:25 - PHP Notice:  Array to string conversion in /var/www/fakro1/catalog/view/theme/theme574/template/common/footer.tpl on line 73
+2018-02-19 9:09:26 - PHP Notice:  Array to string conversion in /var/www/fakro1/catalog/view/theme/theme574/template/common/footer.tpl on line 73
+2018-02-19 9:09:26 - PHP Notice:  Array to string conversion in /var/www/fakro1/catalog/view/theme/theme574/template/common/footer.tpl on line 73
+2018-02-19 9:09:26 - PHP Notice:  Array to string conversion in /var/www/fakro1/catalog/view/theme/theme574/template/common/footer.tpl on line 73
+2018-02-19 9:09:26 - PHP Notice:  Array to string conversion in /var/www/fakro1/catalog/view/theme/theme574/template/common/footer.tpl on line 73
+2018-02-19 9:09:26 - PHP Notice:  Array to string conversion in /var/www/fakro1/catalog/view/theme/theme574/template/common/footer.tpl on line 73
