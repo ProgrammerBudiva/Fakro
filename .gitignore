@@ -6,9 +6,9 @@ admin/config.php
 
 download/
 image/cache/
-#system/cache/
-#system/logs/
-#system/modification
+system/cache/
+system/logs/
+system/modification
 
 # vQmod log files
 vqmod/logs/*

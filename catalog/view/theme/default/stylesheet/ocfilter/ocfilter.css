@@ -8,8 +8,8 @@
 }
 
 .ocfilter a,
-.ocfilter a:hover,
-.ocfilter a:active{background: none; border: none; padding: 0; text-shadow: none;}
+/*.ocfilter a:hover,*/
+/*.ocfilter a:active{background: none; border: none; padding: 0; text-shadow: none;}*/
 
     .ocfilter-option .option-name{font-size: 12px; font-weight: 600; margin-bottom: 10px;}
 		.ocfilter-option .option-values{overflow: visible;}
@@ -24,12 +24,12 @@
 
       .ocfilter-option label{cursor: pointer; display: block; font-size: 12px; font-weight: normal; line-height: 1.2; padding: 4px 0;}
       .ocfilter-option label input{display: inline-block; margin: 0 5px 0 0; vertical-align: top;}
-      .ocfilter-option label small{background-color: #DBEAF9; color: #0E6A93; font-weight: 200; font-size: 10px; margin-left: 5px;}
+      .ocfilter-option label small{background-color: #3aa935; color: black; font-weight: 200; font-size: 10px; margin-left: 5px;}
 
 			.ocfilter-option label.disabled{color: #999999;}
       .ocfilter-option label.disabled small{background-color: #EFEFEF; color: #999999;}
 
-			.ocfilter-option label a{color: #236BBB; text-decoration: none;}
+			.ocfilter-option label a{color: #3aa935; text-decoration: none; border: none}
       .ocfilter-option label.selected {color: #E56101;}
       .ocfilter-option label.selected small{display: none;}
 
