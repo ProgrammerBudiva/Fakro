@@ -2847,11 +2847,12 @@ footer {
 /* alert */
 .alert {
   position: relative;
-  top: 0;
+  bottom: 0;
   left: 0;
   width: 100%;
   text-align: center;
   padding: 8px 14px 8px 14px;
+  margin-bottom: 0;
   z-index: 30; }
 
 .alert-warning {
