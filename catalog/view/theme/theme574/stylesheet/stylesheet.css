@@ -4124,3 +4124,15 @@ input#input-coupon {
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
+
+#tab-specification .table td{
+  width: 50%;
+}
+#tab-specification .table td:first-child{
+  text-align: right;
+  padding-right: 40px;
+}
+#tab-specification .table td{
+  text-align: left;
+  padding-left: 40px;
+}
