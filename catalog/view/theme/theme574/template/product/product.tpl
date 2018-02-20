@@ -129,7 +129,7 @@
 
 					<?php if ($price) { ?>
 					<div class="price-section">
-						<span class="price-new"><?php echo $special; ?></span>
+						<span class="price-special"><?php echo $special; ?></span>
 						<?php if (!$special) { ?>
 						<span class="price-new"><?php echo $price; ?></span>
 						<?php } else { ?>
