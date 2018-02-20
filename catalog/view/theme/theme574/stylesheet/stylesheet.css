@@ -4105,3 +4105,21 @@ input#input-coupon {
 .footer-call-me-input:focus {
   border: 1px green;
 }
+#compare-total-2 {
+  position: absolute;
+  display: inline-block;
+  top: 12px;
+  right: 8px;
+  width: 19px;
+  height: 19px;
+  font-size: 12px;
+  line-height: 19px;
+  text-align: center;
+  color: #fff;
+  background: #3aa935;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}

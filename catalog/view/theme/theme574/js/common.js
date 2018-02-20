@@ -293,6 +293,7 @@ var compare = {
 					$('#content').parent().before('<div class="alert alert-success"><i class="fa fa-check-circle"></i> ' + json['success'] + '<button type="button" class="close" data-dismiss="alert">&times;</button></div>');
 
 					$('#compare-total').html(json['total']);
+					$('#compare-total-2').html(json['total_2']);
 
 					/*$('html, body').animate({ scrollTop: 0 }, 'slow');*/
 					setTimeout(function() {$('.alert').fadeOut(1000)},3000)

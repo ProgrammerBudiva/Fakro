@@ -141,6 +141,7 @@
 		<div class=" box-cart compare toggle-wrap">
 			<a href="/compare-products">
 				<i class="material-design-shuffle24"></i>
+				<span id="compare-total-2"><?php echo $compare_2; ?></span>
 			</a>
 		</div>
 
