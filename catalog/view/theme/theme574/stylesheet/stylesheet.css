@@ -4136,3 +4136,12 @@ input#input-coupon {
   text-align: left;
   padding-left: 40px;
 }
+#tab-specification .attribute_group{
+  text-align: center;
+}
+#tab-specification .attribute_group strong{
+  color: #3aa935;
+}
+.footer_box h6 {
+  margin: 10px 0;
+}

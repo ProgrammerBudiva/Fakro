@@ -371,7 +371,7 @@
 				<?php foreach ($attribute_groups as $attribute_group) { ?>
 				<tbody>
 				<tr>
-					<th colspan="2"><strong><?php echo $attribute_group['name']; ?></strong></th>
+					<th class="attribute_group" colspan="2"><strong><?php echo $attribute_group['name']; ?></strong></th>
 				</tr>
 				</tbody>
 				<tbody>

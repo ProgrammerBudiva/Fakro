@@ -38,7 +38,7 @@
         <div class="col-sm-3 cast">
             <div class="footer_box">
                 <div class=" toggle-wrap search phone-number">
-			        <span style="font-size: 25px;">
+			        <span style="font-size: 23px; letter-spacing: -1px; font-weight: 400;">
                         <i class="material-design-phone370" style="color:#3aa935;"></i>
                         (800) 300 506
 			        </span>
@@ -49,7 +49,7 @@
 
         <?php foreach($data['categories'] as $category){ ?>
             <div class="footer_box">
-                <h5><a href="<?php echo $category['link']; ?>"><?php echo $category['name']; ?></a></h5>
+                <h6><a href="<?php echo $category['link']; ?>"><?php echo $category['name']; ?></a></h6>
             </div>
         <?php } ?>
 	</div>
