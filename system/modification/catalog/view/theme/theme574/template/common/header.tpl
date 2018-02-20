@@ -148,6 +148,7 @@
 		<div class=" box-cart compare toggle-wrap">
 			<a href="/compare-products">
 				<i class="material-design-shuffle24"></i>
+				<span id="compare-total-2"><?php echo $compare_2; ?></span>
 			</a>
 		</div>
 
@@ -181,7 +182,7 @@
 		</div>
 
 			<div class=" toggle-wrap search phone-number">
-			<span style="font-size: 25px;">
+			<span style="font-size: 23px; letter-spacing: -1px; font-weight: 400;">
 				<i class="material-design-phone370" style="color:#3aa935;"></i>
 				(800) 300 506
 			</span>

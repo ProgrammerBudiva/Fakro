@@ -184,6 +184,8 @@ class ControllerCommonHeader extends Controller {
 		$data['search'] = $this->load->controller('common/search');
 		$data['cart'] = $this->load->controller('common/cart');
 
+        $this->load->language('product/compare');
+        $data['compare_2'] =  (isset($this->session->data['compare']) ? count($this->session->data['compare']) : 0);
 		// For page specific css
 		if (isset($this->request->get['route'])) {
 			if (isset($this->request->get['product_id'])) {

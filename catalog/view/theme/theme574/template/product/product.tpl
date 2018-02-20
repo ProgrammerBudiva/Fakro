@@ -362,7 +362,31 @@
 
 			</div>
 		</div>
-		
+
+		<?php if ($attribute_groups) { ?>
+		<!-- Product specifications -->
+		<div id="tab-specification" class="product-spec product-section">
+			<h3 class="product-section_title"><?php echo $tab_attribute; ?></h3>
+			<table class="table table-bordered">
+				<?php foreach ($attribute_groups as $attribute_group) { ?>
+				<tbody>
+				<tr>
+					<th colspan="2"><strong><?php echo $attribute_group['name']; ?></strong></th>
+				</tr>
+				</tbody>
+				<tbody>
+				<?php foreach ($attribute_group['attribute'] as $attribute) { ?>
+				<tr>
+					<td><?php echo $attribute['name']; ?></td>
+					<td><?php echo $attribute['text']; ?></td>
+				</tr>
+				<?php } ?>
+				</tbody>
+				<?php } ?>
+			</table>
+		</div>
+		<?php } ?>
+
 		<!-- Product description -->
 		<div id="tab-description" class="product-desc product-section">
 			<h3 class="product-section_title"><?php echo $tab_description; ?></h3>
@@ -370,29 +394,6 @@
 			<div class="clearfix"></div>
 		</div>
 
-		<?php if ($attribute_groups) { ?>
-		<!-- Product specifications -->
-		<div id="tab-specification" class="product-spec product-section">
-			<h3 class="product-section_title"><?php echo $tab_attribute; ?></h3>
-			<table class="table table-bordered">
-			<?php foreach ($attribute_groups as $attribute_group) { ?>
-			<tbody>
-				<tr>
-					<th colspan="2"><strong><?php echo $attribute_group['name']; ?></strong></th>
-				</tr>
-			</tbody>
-			<tbody>
-				<?php foreach ($attribute_group['attribute'] as $attribute) { ?>
-				<tr>
-				<td><?php echo $attribute['name']; ?></td>
-				<td><?php echo $attribute['text']; ?></td>
-				</tr>
-				<?php } ?>
-			</tbody>
-			<?php } ?>
-			</table>
-		</div>
-		<?php } ?>
 
 		<!-- Product reviews -->
 		<?php if ($review_status) { ?>			
