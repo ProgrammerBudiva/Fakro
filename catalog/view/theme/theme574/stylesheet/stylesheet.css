@@ -105,7 +105,8 @@
   background-color: #fff; }
 
 .table {
-  text-transform: uppercase; }
+  /*text-transform: uppercase;*/
+}
   .table b, .table strong {
     color: #2d2e42;
     text-transform: uppercase;
