@@ -4146,3 +4146,14 @@ input#input-coupon {
 .footer_box h6 {
   margin: 10px 0;
 }
+.footer_box .phone-number{
+  width: fit-content;
+  margin: auto;
+}
+.footer_box .mail {
+  width: fit-content;
+  margin: auto;
+}
+#input-oklad270 .img-thumbnail{
+  padding-right: 5px;
+}

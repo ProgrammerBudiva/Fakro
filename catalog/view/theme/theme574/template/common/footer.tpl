@@ -11,16 +11,16 @@
 		<div class="col-sm-3">			
 			<?php if ($logo) { ?>
 			<div class="logo">
-			<a href="<?php echo $home; ?>"><img src="image/catalog/footer-logo.png" alt="" class="img-responsive" /></a>
+			<a href="<?php echo $home; ?>"><img src="/image/catalog/LOGO_FAKRO UA.png" alt="" class="img-responsive" /></a>
 			</div>
 			<?php } ?>
-			<div class="footer_box">
+			<!--<div class="footer_box">
 				<ul class="list-unstyled social">
-					<li><a data-toggle="tooltip" title="<?php echo $text_fb; ?>" href="https://www.facebook.com/login/"><i class="fa fa-facebook"></i></a></li>	
+					<li><a data-toggle="tooltip" title="<?php echo $text_fb; ?>" href="https://www.facebook.com/login/"><i class="fa fa-facebook"></i></a></li>
 					<li><a data-toggle="tooltip" title="<?php echo $text_twi; ?>" href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
 					<li><a data-toggle="tooltip" title="<?php echo $text_google; ?>" href="https://accounts.google.com/"><i class="fa fa-google-plus"></i></a></li>
 				</ul>
-			</div>
+			</div>-->
 			
 		</div>
         <div class="col-sm-3 cast">
@@ -35,14 +35,15 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-3 cast">
+        <div class="col-sm-3 cast" style="margin-top: 10px;">
             <div class="footer_box">
-                <div class=" toggle-wrap search phone-number">
+                <div class=" toggle-wrap  phone-number">
 			        <span style="font-size: 23px; letter-spacing: -1px; font-weight: 400;">
                         <i class="material-design-phone370" style="color:#3aa935;"></i>
                         (800) 300 506
 			        </span>
                 </div>
+                <div class="mail">info@fakro.in.ua</div>
             </div>
         </div>
 		<div class="col-sm-2 cast">
@@ -53,7 +54,7 @@
             </div>
         <?php } ?>
 	</div>
-	
+	t
   </div>
 	<div class="copyright">
 		<!--<div class="container">

@@ -131,7 +131,7 @@
 					<div class="price-section">
 						<span class="price-special"><?php echo $special; ?></span>
 						<?php if (!$special) { ?>
-						<span class="price-new"><?php echo $price; ?></span>
+						<span class="price-new"><?php echo $price; ?></span><span class="price-oklad"></span>
 						<?php } else { ?>
 						<span class="price-old"><?php echo $price; ?></span>
 						<?php } ?>
@@ -167,17 +167,17 @@
 
 					<!-- Product options -->
 					<div class="product-options form-horizontal">
-						<?php if ($options) { ?>
+						<?php if ($options){ ?>
 							<h3><?php echo $text_option; ?></h3>
 							<?php foreach ($options as $option) { ?>
 								<?php if ($option['type'] == 'select') { ?>
 									<div class="form-group<?php echo ($option['required'] ? ' required' : ''); ?>">
 										<label class="control-label col-sm-4" for="input-option<?php echo $option['product_option_id']; ?>"><?php echo $option['name']; ?></label>
 										<div class="col-sm-8">
-											<select name="option[<?php echo $option['product_option_id']; ?>]" id="input-option<?php echo $option['product_option_id']; ?>" class="form-control">
+											<select  name="option[<?php echo $option['product_option_id']; ?>]" id="input-option<?php echo $option['product_option_id']; ?>" class="form-control" <?php if($option['option_id'] === '11'){ echo "data-attr='size-custom'"; } ?>>
 												<option value=""><?php echo $text_select; ?></option>
 												<?php foreach ($option['product_option_value'] as $option_value) { ?>
-												<option value="<?php echo $option_value['product_option_value_id']; ?>"><?php echo $option_value['name']; ?>
+												<option data-size="<?php echo $option_value['name']; ?>" value="<?php echo $option_value['product_option_value_id']; ?>"><?php echo $option_value['name']; ?>
 												<?php if ($option_value['price']) { ?>
 												(<?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>)
 												<?php } ?>
@@ -299,6 +299,35 @@
 								<?php } ?>
 							<?php } ?>
 						<?php } ?>
+						<div class="form-group-required" style="display: block;float: right;margin-bottom: 15px;">
+						<div id="input-oklad270">
+							<div class="radio">
+								<label>
+									<span style="margin-top: 18px;float: left;"><input type="radio" name="oklad-additional" option_id="268" option_id_value="" price_prefix="+" price="0.0000" value="51-268" id="oklad-51"></span>
+									<img src="https://fakro.pro/image/cache/catalog/ESV оклад/БИТУМНАЯ ЧЕРЕПИЦА-47x47.jpg" alt="ESV — ↕ до 10мм (битумная черепица, рубероид и др.)" class="img-thumbnail">ESV — ↕ до 10мм (битумная черепица, рубероид и др.)                                              </label>
+							</div>
+							<div class="radio">
+								<label>
+									<span style="margin-top: 18px;float: left;"><input type="radio" name="oklad-additional" option_id="269" option_id_value="" price_prefix="+" price="0.0000" value="1170" id="oklad-52"></span>
+									<img src="https://fakro.pro/image/cache/catalog/EZV оклад/меттталочерепица-47x47.jpg" alt="EZV — ↕ до 45 мм (метало-черепица, шифер и др.)" class="img-thumbnail"> EZV — ↕ до 45 мм (метало-черепица, шифер и др.)                                              </label>
+							</div>
+							<div class="radio">
+								<label>
+									<span style="margin-top: 18px;float: left;"><input type="radio" name="oklad-additional" option_id="270" option_id_value="" price_prefix="+" price="0.0000" value="1170" id="oklad-53"></span>
+									<img src="https://fakro.pro/image/cache/catalog/EHN оклад/ВЫСОКОПРОФИЛИРОВАННЫЕ-47x47.jpg" alt="EHN — ↕ от 45-90мм (натуральная черепица, шифер и др.)" class="img-thumbnail"> EHN — ↕ от 45-90мм (натуральная черепица, шифер и др.)                                            </label>
+							</div>
+							<div class="radio">
+								<label>
+									<span style="margin-top: 18px;float: left;"><input type="radio" name="oklad-additional" option_id="271" option_id_value="" price_prefix="+" price="0.0000" value="1170" id="oklad-54"></span>
+									<img src="https://fakro.pro/image/cache/catalog/EHN-AT Thermo оклад/ТЕРМО-47x47.jpg" alt="EHV-AT Thermo — с дополнительной теплоизоляцией" class="img-thumbnail"> EHV-AT Thermo — с дополнительной теплоизоляцией                                            </label>
+							</div>
+							<div class="radio">
+								<label>
+									<span style="margin-top: 18px;float: left;"><input type="radio" name="oklad-additional" checked  price_prefix="+" price="none" value="none" id="oklad-0"></span>
+									<img src="http://fakro.pro/image/no-parking.png"  alt="Нет, спасибо не нужно" class="img-thumbnail" style="width: 52px;"> Нет, спасибо не нужно                                              </label>
+							</div>
+						</div>
+						</div>
 					</div>
 
 					<!-- product reccurings -->
@@ -316,7 +345,7 @@
 							</div>
 						<?php } ?>
 					</div>
-				
+
 					<!-- Add to cart form -->
 					<div class="form-group form-horizontal">
 						<div class="form-group">
@@ -778,6 +807,43 @@ function getChar(event) {
 				enabled:true
 			}
 		});
+
+        $($('[data-attr~="size-custom"]')).on('change', function() {
+//            alert( this.value );
+	    	console.log($('[data-attr~="size-custom"]').children("option").filter(":selected").attr('data-size'));
+			$.ajax({
+				url: '/index.php?route=product/oklad/changeSize',
+				data:{marker: $('[data-attr~="size-custom"]').children("option").filter(":selected").attr('data-size')},
+				type: 'post',
+                dataType: 'json',
+				success: function (response) {
+					console.log(response);
+					$.each(response.products, function(i, item){
+                        console.log(i);
+                        console.log(item);
+                        $('#oklad-' + i).attr('price', item.price).attr('option_id_value', item.option_id_value).val(i + '-' + item.option_id + '-' + item.option_id_value);
+//                        $('#oklad-' + i)
+					});
+					okladprice();
+				}
+			});
+        });
+
+		function okladprice() {
+                if($('input:radio[name=oklad-additional]:checked').attr('price') == 'none' || $('input:radio[name=oklad-additional]:checked').attr('price') == '0.0000'){
+                    $('.price-oklad').html('');
+                }else {
+                    $('.price-oklad').html(' +' + $('input:radio[name=oklad-additional]:checked').attr('price') + ' оклад');
+                }
+        };
+
+        $('input[type=radio][name=oklad-additional]').change(function() {
+            if($('input:radio[name=oklad-additional]:checked').attr('price') == 'none' || $('input:radio[name=oklad-additional]:checked').attr('price') == '0.0000'){
+                $('.price-oklad').html('');
+			}else {
+                $('.price-oklad').html(' +' + $('input:radio[name=oklad-additional]:checked').attr('price') + ' оклад');
+            }
+        });
 	});
 	//-->
 </script> 

@@ -287,6 +287,12 @@ class ControllerCheckoutCart extends Controller {
 			$product_id = 0;
 		}
 
+		if (isset($this->request->post['oklad-additional']) && $this->request->post['oklad-additional'] !== 'none'){
+		    $oklad = explode('-',$this->request->post['oklad-additional']);
+            $option = [ $oklad[1] => $oklad[2] ];
+            $this->cart->add($oklad[0], 1, $option, 0);
+        }
+
 		$this->load->model('catalog/product');
 
 		$product_info = $this->model_catalog_product->getProduct($product_id);

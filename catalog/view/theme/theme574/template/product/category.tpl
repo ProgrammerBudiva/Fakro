@@ -24,9 +24,7 @@
 			</div>
 		</div>
 		<?php } ?>
-		<?php if ($description) { ?>
-		<div class="col-sm-10"><?php echo $description; ?></div>
-		<?php } ?>
+
 	  </div>
 	  <br><br>
 	  <?php } ?>
@@ -187,6 +185,11 @@
 		<div class="col-sm-6 text-left"><?php echo $pagination; ?></div>
 		<div class="col-sm-6 text-right"><?php echo $results; ?></div>
 	  </div>
+		<?php if ($description) { ?>
+		<div class="row">
+			<div class="col-sm-10" style="float: none;margin: auto; margin-top: 30px;"><?php echo $description; ?></div>
+		</div>
+		<?php } ?>
 	  <?php } ?>
 	  <?php if (!$categories && !$products) { ?>
 	  <p><?php echo $text_empty; ?></p>
