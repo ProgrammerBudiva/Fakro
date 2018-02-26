@@ -72,13 +72,11 @@
 				  <span class="label label-info"><?php echo $text_recurring_item; ?></span> <small><?php echo $product['recurring']; ?></small>
 				  <?php } ?></td>
 				<td class="text-left"><?php echo $product['model']; ?></td>
-				<td class="text-left">
-					<div class="input-group btn-block" style="max-width: 200px;">
-						<p class="clearfix"><input type="text" name="quantity[<?php echo $product['key']; ?>]" value="<?php echo $product['quantity']; ?>" size="1" class="form-control cart-q" id="cart-q" /></p>
-						<div>
-							<button type="submit" data-toggle="tooltip" title="<?php echo $button_update; ?>" class="btn btn-primary"><i class="fa fa-refresh"></i></button>
-							<button type="button" data-toggle="tooltip" title="<?php echo $button_remove; ?>" class="btn btn-danger" onclick="cart.remove('<?php echo $product['key']; ?>');"><i class="fa fa-times-circle"></i></button>
-						</div>
+				<td class="text-left" style="width: 18%;">
+					<div class="input-group btn-block cart-buttons-block">
+						<button type="submit" data-toggle="tooltip" title="<?php echo $button_update; ?>" class="btn btn-primary"><i class="fa fa-refresh"></i></button>
+						<input type="text" name="quantity[<?php echo $product['key']; ?>]" value="<?php echo $product['quantity']; ?>" size="1" class="form-control cart-q" id="cart-q" />
+						<button type="button" data-toggle="tooltip" title="<?php echo $button_remove; ?>" class="btn btn-danger" onclick="cart.remove('<?php echo $product['key']; ?>');"><i class="fa fa-times-circle"></i></button>
 					</div>
 				</td>
 				<td class="text-right"><div class="price"><?php echo $product['price']; ?></div></td>

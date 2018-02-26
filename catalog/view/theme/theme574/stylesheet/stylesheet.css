@@ -21,7 +21,8 @@
   font-weight: bold;
   padding: 10px 10px 13px;
   border-radius: 0;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); }
+  /*text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); */
+}
 
 .alert i {
   font-size: 21px; }
@@ -4157,3 +4158,69 @@ input#input-coupon {
 #input-oklad270 .img-thumbnail{
   padding-right: 5px;
 }
+
+.static-menu{
+  font-weight: 300;
+  border: 1px solid #f2f2f2;
+  background: #fff;
+  -webkit-box-shadow: 0 4px 5px #f2f2f2;
+  -moz-box-shadow: 0 4px 5px #f2f2f2;
+  box-shadow: 0 4px 5px #f2f2f2;
+  text-transform: uppercase;
+  margin: 10px 0 35px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 15px 20px;
+}
+/*.static-menu-item{}*/
+.static-menu-item ul{
+  list-style: none;
+  border-top: 1px solid #dcdcdc;
+  padding-left: 13px;
+  margin-top: 4px;
+}
+.static-menu-item ul li{
+  padding: 2px 0;
+}
+.static-menu-item ul li:first-child{
+  margin-top: 4px;
+}
+.static-menu-item ul li a{
+  color: black;
+  font-weight: 400;
+}
+.static-menu-item a:first-child{
+  text-transform: none;
+}
+.static-menu-item-title{
+  font-weight: 400;
+}
+
+
+.cart-buttons-block{
+  align-items: center;
+  display: flex;
+}
+.cart-buttons-block input{
+  margin-left: 3px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+  .static-menu-item{
+    min-width: 30%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .static-menu-item{
+    min-width: 45%;
+    margin-top: 10px;
+  }
+}
+

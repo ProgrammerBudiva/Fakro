@@ -40,7 +40,7 @@ class ControllerProductOklad extends Controller
             foreach ($product_option[0]['product_option_value'] as $option){
                 if ($option['name'] === $this->request->post['marker'] ){
                     $options_get[$product['product_id']] =
-                        ['price' => $option['price'], 'option_id' => $product_option[0]['product_option_id'], 'option_id_value' => $option['product_option_value_id']];
+                        ['price' => number_format($option['price'], 2, '.', ''), 'option_id' => $product_option[0]['product_option_id'], 'option_id_value' => $option['product_option_value_id']];
                 }
             }
         }
