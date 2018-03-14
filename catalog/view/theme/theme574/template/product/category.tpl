@@ -244,8 +244,8 @@
 				</div>
 				<div class="cart-button">
 					<button class="product-btn-add" type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="material-design-shopping231"></i> <span class="hidden-sm"><?php echo $button_cart; ?></span></button>
-					<div class="row">					
-					<button class="product-btn" type="button" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product['product_id']; ?>');"><i class="material-design-favorite22"></i></button><button class="product-btn" type="button" data-toggle="tooltip" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product['product_id']; ?>');"><i class="material-design-shuffle24"></i></button><a class="product-btn" data-toggle="tooltip" title="<?php echo $text_details; ?>" href="<?php echo $product['href']; ?>"><i class="material-design-right244"></i></a>
+					<div class="row" style="display: flex; justify-content: center; align-items: center;">
+					<button class="product-btn" type="button" data-toggle="tooltip" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product['product_id']; ?>');"><i class="material-design-shuffle24"></i></button><a class="product-btn" data-toggle="tooltip" title="<?php echo $text_details; ?>" href="<?php echo $product['href']; ?>"><i class="material-design-right244"></i></a>
 					</div>
 				
 				<div class="rating">
