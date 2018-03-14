@@ -360,7 +360,6 @@
 					</div>
 
 					<ul class="product-buttons">
-						<li><button type="button" class="btn product-btn" onclick="wishlist.add('<?php echo $product_id; ?>');"><i class="material-design-favorite22"></i> <span class="hidden-xs hidden-sm"><?php echo $button_wishlist; ?></span></button></li>
 						<li><button type="button" class="btn product-btn" onclick="compare.add('<?php echo $product_id; ?>');"><i class="material-design-shuffle24"></i> <span class="hidden-xs hidden-sm"><?php echo $button_compare; ?></span></button></li>
 					</ul>					
 
@@ -532,7 +531,6 @@
 						<div class="cart-button">
 							<button class="product-btn-add" type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="material-design-shopping231"></i> <span class="hidden-sm"><?php echo $button_cart; ?></span></button>
 							<div class="row">
-							<button class="product-btn" type="button" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product['product_id']; ?>');"><i class="material-design-favorite22"></i></button>
 							<button class="product-btn" type="button" data-toggle="tooltip" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product['product_id']; ?>');"><i class="material-design-shuffle24"></i></button>
 							</div>
 						</div>
