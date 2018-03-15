@@ -89,6 +89,36 @@ class ControllerProductCategory extends Controller {
 
 		$category_info = $this->model_catalog_category->getCategory($category_id);
 
+        /*
+         * Additional menu category
+         */
+            if($category_info['parent_id'] === '0'){
+                $sub_categories = $this->model_catalog_category->getCategories($category_info['category_id']);
+                if(count($sub_categories) !== 0) {
+                    $i = 0;
+                    foreach ($sub_categories as $sub_category) {
+                        $data = [
+                            'filter_category_id' => $sub_category['category_id']
+                        ];
+                        $sub_cat_products = $this->model_catalog_product->getProducts($data);
+
+                        foreach ($sub_cat_products as $product) {
+                            $sub_cat_products[$product['product_id']]['href'] = $this->url->link('product/product', 'product_id=' . $product['product_id']);
+                        }
+
+                        $sub_categories[$i]['href'] = $this->url->link('product/category', 'path=' . $sub_category['category_id']);
+                        $sub_categories[$i]['products'] = $sub_cat_products;
+                        $i++;
+                    }
+                } else {
+                    $data['no_sub_categories'] = true;
+                }
+                $data['sub_categories'] = $sub_categories;
+            }
+        /*
+         * END Additional menu category
+         */
+
 		if ($category_info) {
 			$this->document->setTitle($category_info['meta_title']);
 			$this->document->setDescription($category_info['meta_description']);

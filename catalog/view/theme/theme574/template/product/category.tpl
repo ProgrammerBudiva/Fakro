@@ -1,88 +1,26 @@
 <?php echo $header; ?>
 <div class="container">
-    <div class="static-menu">
-        <div class="static-menu-item">
-                    <a href="http://fakro1.dev/web-camera" class="static-menu-item-title">Стандартные</a>
-                    <ul>
-                        <li style="">
-                            <a href="http://fakro1.dev/test2">FTS U2</a>
-                        </li>
-                        <li style="">
-                            <a href="http://fakro1.dev/index.php?route=product/category&amp;path=40">FTS V U2</a>
-                        </li>
-                        <li style="">
-                            <a href="http://fakro1.dev/index.php?route=product/category&amp;path=41">FT3 V U3</a>
-                        </li>
-                        <li style="">
-                            <a href="http://fakro1.dev/index.php?route=product/category&amp;path=42">FT3 V U5</a>
-                        </li>
-                    </ul>
-        </div>
-        <div class="static-menu-item">
-            <a href="http://fakro1.dev/web-camera" class="static-menu-item-title">Поворотно-откидные</a>
-            <ul>
-                <li style="">
-                    <a href="http://fakro1.dev/test2">FPP-V U3 PRESELECT</a>
-                </li>
-                <li style="">
-                    <a href="http://fakro1.dev/index.php?route=product/category&amp;path=40">FPU-V U3 PRESELECT</a>
-                </li>
-                <li style="">
-                    <a href="http://fakro1.dev/index.php?route=product/category&amp;path=41">PPP-V U3 PRESELECT</a>
-                </li>
-            </ul>
-        </div>
-        <div class="static-menu-item">
-            <a href="http://fakro1.dev/web-camera" class="static-menu-item-title">Влагостойкие</a>
-            <ul>
-                <li style="">
-                    <a href="http://fakro1.dev/test2">FTU-V U3</a>
-                </li>
-                <li style="">
-                    <a href="http://fakro1.dev/index.php?route=product/category&amp;path=40">PTP-V U3</a>
-                </li>
-                <li style="">
-                    <a href="http://fakro1.dev/index.php?route=product/category&amp;path=41">PTP-V/GO U3</a>
-                </li>
-                <li style="">
-                    <a href="http://fakro1.dev/index.php?route=product/category&amp;path=41">PTP-V/PI U3</a>
-                </li>
-            </ul>
-        </div>
-        <div class="static-menu-item">
-            <a href="http://fakro1.dev/web-camera" class="static-menu-item-title">Энергосберегающие</a>
-            <ul>
-                <li style="">
-                    <a href="http://fakro1.dev/test2">FTP-V U5</a>
-                </li>
-                <li style="">
-                    <a href="http://fakro1.dev/index.php?route=product/category&amp;path=40">FTT U6</a>
-                </li>
-                <li style="">
-                    <a href="http://fakro1.dev/index.php?route=product/category&amp;path=41">FTT U8 THERMO</a>
-                </li>
-            </ul>
-        </div>
-        <div class="static-menu-item">
-            <a href="#" class="static-menu-item-title">С электроуправлением</a>
-            <ul>
-                <li style="">
-                    <a href="#">FTP-V U3 Z-WAVE</a>
-                </li>
-                <li style="">
-                    <a href="#">FTP-V U3 Z-ELECTRO</a>
-                </li>
-            </ul>
-        </div>
-        <div class="static-menu-item">
-            <a href="#" class="static-menu-item-title">Окно-балкон</a>
-            <ul>
-                <li style="">
-                    <a href="#">FGH-V P2 GALERIA</a>
-                </li>
-            </ul>
-        </div>
-    </div>
+
+	<!-- Additional menu category -->
+
+	<?php if(isset($sub_categories) && !isset($no_sub_categories)){ ?>
+	<div class="static-menu">
+		<?php foreach($sub_categories as $sub_category){ ?>
+			<div class="static-menu-item">
+				<a href=" <?php echo $sub_category['href']; ?> " class="static-menu-item-title"><?php echo $sub_category['name']; ?></a>
+				<ul>
+					<?php foreach($sub_category['products'] as $product){ ?>
+						<li style="">
+							<a href=" <?php echo $product['href']; ?> "><?php echo $product['name']; ?></a>
+						</li>
+					<?php } ?>
+				</ul>
+			</div>
+		<?php } ?>
+	</div>
+	<?php } ?>
+
+	<!-- END Additional menu category -->
 
   <ul class="breadcrumb">
 	<?php foreach ($breadcrumbs as $breadcrumb) { ?>
