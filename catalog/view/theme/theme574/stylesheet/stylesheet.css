@@ -4093,6 +4093,7 @@ input#input-coupon {
 .footer_box .call_me_div {
   margin:auto;
   width: 75%;
+  text-align: center;
 }
 .footer-call-me{
   width:75%;
@@ -4103,10 +4104,16 @@ input#input-coupon {
   height: 46px;
   width: -webkit-fill-available;
   margin: auto;
-  padding-left: 49px;
+  /*padding-left: 49px;*/
+  text-align: center;
+
+   border-style: solid;
+  border-width: 2px;
+  border-color: #3aa935
 }
 .footer-call-me-input:focus {
   border: 1px green;
+  /*text-align: left;*/
 }
 #compare-total-2 {
   position: absolute;
@@ -4154,6 +4161,8 @@ input#input-coupon {
 .footer_box .mail {
   width: fit-content;
   margin: auto;
+  font-size: 15px;
+  margin-top: 10px;
 }
 #input-oklad270 .img-thumbnail{
   padding-right: 5px;
@@ -4206,8 +4215,16 @@ input#input-coupon {
 .cart-buttons-block input{
   margin-left: 3px;
 }
-
-
+.free-phone {
+  width: fit-content;
+  margin: auto;
+  color: #acafb2;
+  font-size: 15px;
+  margin-top: 5px;
+}
+.footer_box h6 {
+  text-transform: none;
+}
 
 
 
@@ -4217,6 +4234,19 @@ input#input-coupon {
   .static-menu-item{
     min-width: 30%;
   }
+  footer .row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .row .col-sm-3 {
+    width: 80%;
+  }
+  footer .img-responsive, footer .logo div{
+    margin: auto;
+    width: 50%;
+  }
+
 }
 @media screen and (max-width: 480px) {
   .static-menu-item{

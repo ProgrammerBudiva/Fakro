@@ -11,7 +11,10 @@
 		<div class="col-sm-3">			
 			<?php if ($logo) { ?>
 			<div class="logo">
-			<a href="<?php echo $home; ?>"><img src="/image/catalog/LOGO_FAKRO UA.png" alt="" class="img-responsive" /></a>
+			    <a href="<?php echo $home; ?>"><img src="/image/catalog/LOGO_FAKRO UA.png" alt="" class="img-responsive" /></a>
+                <div style="margin-top: 5px; font-size: 15px;">
+                    Мансардные окна FAKRO <br> с доставкой по всей Украине <br> от официального дилера
+                </div>
 			</div>
 			<?php } ?>
 			<!--<div class="footer_box">
@@ -27,7 +30,7 @@
             <div class="footer_box">
                 <div class="call_me toggle-wrap">
                     <div class="footer-call-me">
-                    <input type="text" class="footer-call-me-input" id="footer-phone" placeholder="(XXX) XXX-XX-XX">
+                    <input type="text" class="footer-call-me-input" id="footer-phone" placeholder="+38 (___)-___-__-__">
                     </div>
                     <div class="call_me_div">
                         <span>Перезвоните мне</span>
@@ -43,7 +46,9 @@
                         (800) 300 506
 			        </span>
                 </div>
+                <div class="free-phone">звонок бесплатный</div>
                 <div class="mail">info@fakro.in.ua</div>
+                <div class="mail">звонок бесплатный</div>
             </div>
         </div>
 		<div class="col-sm-2 cast">
@@ -54,7 +59,6 @@
             </div>
         <?php } ?>
 	</div>
-	t
   </div>
 	<div class="copyright">
 		<!--<div class="container">
@@ -68,7 +72,7 @@
 <script src="catalog/view/theme/<?php echo $theme_path; ?>/js/script.js" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.13/jquery.mask.min.js"></script>
 <script>
-    $('#footer-phone').mask("(999) 999-99-99");
+    $('#footer-phone').mask("+38 (999) 999-99-99");
 </script>
 </div>
 
