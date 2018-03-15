@@ -324,7 +324,7 @@
 							<div class="radio">
 								<label>
 									<span style="margin-top: 18px;float: left;"><input type="radio" name="oklad-additional" checked  price_prefix="+" price="none" value="none" id="oklad-0"></span>
-									<img src="http://fakro.pro/image/no-parking.png"  alt="Нет, спасибо не нужно" class="img-thumbnail" style="width: 52px;"> Нет, спасибо не нужно                                              </label>
+									<img src="http://fakro.pro/image/no.png"  alt="Нет, спасибо не нужно" class="img-thumbnail" style="width: 52px;"> Нет, спасибо не нужно                                              </label>
 							</div>
 						</div>
 						</div>
