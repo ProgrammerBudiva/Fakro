@@ -4112,7 +4112,7 @@ input#input-coupon {
   border-color: #3aa935
 }
 .footer-call-me-input:focus {
-  border: 1px green;
+  border: 1px #3aa935;
   /*text-align: left;*/
 }
 #compare-total-2 {
@@ -4183,7 +4183,7 @@ input#input-coupon {
   flex-wrap: wrap;
   padding: 15px 20px;
 }
-/*.static-menu-item{}*/
+
 .static-menu-item ul{
   list-style: none;
   border-top: 1px solid #dcdcdc;

@@ -20,14 +20,7 @@
 	<button type="button" class="close" data-dismiss="alert">&times;</button>
   </div>
   <?php } ?>
-  <div class="row"><?php echo $column_left; ?>
-	<?php if ($column_left && $column_right) { ?>
-	<?php $class = 'col-sm-6'; ?>
-	<?php } elseif ($column_left || $column_right) { ?>
-	<?php $class = 'col-sm-9'; ?>
-	<?php } else { ?>
-	<?php $class = 'col-sm-12'; ?>
-	<?php } ?>
+  <div class="row">
 	<div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
 	  <h1><?php echo $heading_title; ?>
 		<?php if ($weight) { ?>
@@ -36,7 +29,7 @@
 	  </h1>
 	  <form class="shoping_cart" action="<?php echo $action; ?>" method="post" enctype="multipart/form-data">
 		<div class="table-responsive">
-		  <table class="table table-bordered">
+		  <table class="table table-bordered" style="margin-bottom: 0;">
 			<thead>
 			  <tr>
 				<td class="text-center"><?php echo $column_image; ?></td>
@@ -99,12 +92,6 @@
 		  </table>
 		</div>
 	  </form>
-	  <?php if ($coupon || $voucher || $reward || $shipping) { ?>
-	  <h2><?php echo $text_next; ?></h2>
-	  <p><?php echo $text_next_choice; ?></p>
-	  <div class="panel-group" id="accordion"><?php echo $coupon; ?><?php echo $voucher; ?><?php echo $reward; ?><?php echo $shipping; ?></div>
-	  <?php } ?>
-	  <br />
 	  <div class="row">
 		<div class="col-sm-6 col-sm-offset-6">
 		  <table class="table table-bordered">
@@ -118,8 +105,8 @@
 		</div>
 	  </div>
 	  <div class="buttons">
-		<div class="pull-left"><a href="<?php echo $continue; ?>" class="btn btn-default"><?php echo $button_shopping; ?></a></div>
-		<div class="pull-right"><a href="<?php echo $checkout; ?>" class="btn btn-primary"><?php echo $button_checkout; ?></a></div>
+		<div class="" style="float: right;"><a href="<?php echo $continue; ?>" class="btn btn-default"><?php echo $button_shopping; ?></a></div>
+		<div class="pull-right" style="margin-right: 10px;"><a href="<?php echo $checkout; ?>" class="btn btn-primary"><?php echo $button_checkout; ?></a></div>
 	  </div>
 	  <?php echo $content_bottom; ?></div>
 	<?php echo $column_right; ?></div>
