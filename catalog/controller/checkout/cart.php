@@ -287,11 +287,6 @@ class ControllerCheckoutCart extends Controller {
 			$product_id = 0;
 		}
 
-		if (isset($this->request->post['oklad-additional']) && $this->request->post['oklad-additional'] !== 'none'){
-		    $oklad = explode('-',$this->request->post['oklad-additional']);
-            $option = [ $oklad[1] => $oklad[2] ];
-            $this->cart->add($oklad[0], 1, $option, 0);
-        }
 
 		$this->load->model('catalog/product');
 
@@ -340,6 +335,12 @@ class ControllerCheckoutCart extends Controller {
 
 			if (!$json) {
 				$this->cart->add($this->request->post['product_id'], $this->request->post['quantity'], $option, $recurring_id);
+
+                if (isset($this->request->post['oklad-additional']) && $this->request->post['oklad-additional'] !== 'none'){
+                    $oklad = explode('-',$this->request->post['oklad-additional']);
+                    $option = [ $oklad[1] => $oklad[2] ];
+                    $this->cart->add($oklad[0], 1, $option, 0);
+                }
 
 				$json['success'] = sprintf($this->language->get('text_success'), $this->url->link('product/product', 'product_id=' . $this->request->post['product_id']), $product_info['name'], $this->url->link('checkout/cart'));
 

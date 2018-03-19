@@ -434,7 +434,7 @@ legend {
 label {
   font-size: 12px;
   font-weight: normal;
-  text-transform: uppercase; }
+  text-transform: none; }
 
 select.form-control,
 textarea.form-control,
