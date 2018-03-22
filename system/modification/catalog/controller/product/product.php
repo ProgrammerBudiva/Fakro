@@ -333,7 +333,7 @@ class ControllerProductProduct extends Controller {
 			}
 
 			$data['options'] = array();
-
+//            echo "<pre>"; print_r($this->model_catalog_product->getProductOptions($this->request->get['product_id'])); echo "</pre>";
 			foreach ($this->model_catalog_product->getProductOptions($this->request->get['product_id']) as $option) {
 				$product_option_value_data = array();
 
@@ -366,7 +366,7 @@ class ControllerProductProduct extends Controller {
 					'required'             => $option['required']
 				);
 			}
-
+//echo "<pre>"; print_r($data['options']); echo "</pre>";
 			if ($product_info['minimum']) {
 				$data['minimum'] = $product_info['minimum'];
 			} else {

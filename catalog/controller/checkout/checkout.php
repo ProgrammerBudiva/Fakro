@@ -30,6 +30,7 @@ class ControllerCheckoutCheckout extends Controller {
 		$this->document->addScript('catalog/view/javascript/jquery/datetimepicker/moment.js');
 		$this->document->addScript('catalog/view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.js');
 		$this->document->addStyle('catalog/view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.css');
+		$this->document->addStyle('catalog/view/javascript/jquery/magnific.css');
 
 		// Required by klarna
 		if ($this->config->get('klarna_account') || $this->config->get('klarna_invoice')) {
@@ -88,7 +89,7 @@ class ControllerCheckoutCheckout extends Controller {
 		$data['header'] = $this->load->controller('common/header');
 
 		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/checkout/checkout.tpl')) {
-			$this->response->setOutput($this->load->view($this->config->get('config_template') . '/template/checkout/checkout.tpl', $data));
+			$this->response->setOutput($this->load->view($this->config->get('config_template') . '/template/checkout/checkout_new.tpl', $data));
 		} else {
 			$this->response->setOutput($this->load->view('default/template/checkout/checkout.tpl', $data));
 		}

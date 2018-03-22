@@ -4,7 +4,7 @@ class ControllerCheckoutSuccess extends Controller {
 		$this->load->language('checkout/success');
 
 		if (isset($this->session->data['order_id'])) {
-			$this->cart->clear();
+//			$this->cart->clear();
 
 			// Add to activity log
 			$this->load->model('account/activity');
@@ -83,10 +83,16 @@ class ControllerCheckoutSuccess extends Controller {
 		$data['footer'] = $this->load->controller('common/footer');
 		$data['header'] = $this->load->controller('common/header');
 
+        $data['text_message'] = sprintf($this->language->get('text_guest'), $this->url->link('information/contact'));
+        $data['button_continue'] = $this->language->get('button_continue');
+        $data['continue'] = $this->url->link('common/home');
 		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/common/success.tpl')) {
-			$this->response->setOutput($this->load->view($this->config->get('config_template') . '/template/common/success.tpl', $data));
+			$this->response->setOutput($this->load->view($this->config->get('config_template') . '/template/common/success_payment.tpl', $data));
 		} else {
 			$this->response->setOutput($this->load->view('default/template/common/success.tpl', $data));
 		}
+
+//        $this->response->addHeader('Content-Type: application/json');
+//        $this->response->setOutput(json_encode(['success'=> 'success']));
 	}
 }
