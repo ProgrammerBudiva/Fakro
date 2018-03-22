@@ -75,9 +75,9 @@
 						</div>
 
 						<script class="source">
-							$(function () {
-								$('#product-image [data-magnificent]').magnificent();
-							});
+//							$(function () {
+//								$('#product-image [data-magnificent]').magnificent();
+//							});
 						</script>
 					</div>
 					<?php } ?>
