@@ -208,8 +208,8 @@
 		<div class="col-sm-6 text-right"><?php echo $results; ?></div>
 	  </div>
 		<?php if ($description) { ?>
-		<div class="row">
-			<div class="col-sm-10" style="float: left;margin: auto; margin-top: 30px;"><?php echo $description; ?></div>
+		<div class="row" style="margin:0; margin-top: 30px;">
+			<?php echo $description; ?>
 		</div>
 		<?php } ?>
 	  <?php } ?>
