@@ -30,7 +30,7 @@
             <div class="footer_box">
                 <div class="call_me toggle-wrap">
                     <div class="footer-call-me">
-                    <input type="text" class="footer-call-me-input" id="footer-phone" placeholder="+38 (___)-___-__-__">
+                        <input type="text" class="footer-call-me-input" id="footer-phone" placeholder="+38 (___)-___-__-__">
                     </div>
                     <div class="call_me_div">
                         <span>Перезвоните мне</span>
@@ -47,7 +47,7 @@
 			        </span>
                 </div>
                 <div class="free-phone">звонок бесплатный</div>
-                <div class="mail">info@fakro.in.ua</div>
+                <div class="mail">info@fakro.pro</div>
                 <div class="mail">звонок бесплатный</div>
             </div>
         </div>

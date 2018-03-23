@@ -2,7 +2,7 @@
 
 // Heading
 
-$_['heading_title']    = 'Корзина покупок';
+$_['heading_title']    = 'Моя корзина';
 
 
 

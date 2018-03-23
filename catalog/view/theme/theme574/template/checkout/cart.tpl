@@ -22,19 +22,15 @@
   <?php } ?>
   <div class="row">
 	<div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
-	  <h1><?php echo $heading_title; ?>
-		<?php if ($weight) { ?>
-		&nbsp;(<?php echo $weight; ?>)
-		<?php } ?>
-	  </h1>
+	  <h1><?php echo $heading_title; ?></h1>
 	  <form class="shoping_cart" action="<?php echo $action; ?>" method="post" enctype="multipart/form-data">
 		<div class="table-responsive">
-		  <table class="table table-bordered" style="margin-bottom: 0;">
+		  <table class="table table-bordered" style="margin-bottom: 0; border-bottom: none; border-left: none;">
 			<thead>
 			  <tr>
 				<td class="text-center"><?php echo $column_image; ?></td>
-				<td class="text-left"><?php echo $column_name; ?></td>
-				<td class="text-left"><?php echo $column_model; ?></td>
+				<td class="text-left" style="width:35%;"><?php echo $column_name; ?></td>
+			<!--	<td class="text-left"><?php echo $column_model; ?></td> -->
 				<td class="text-left"><?php echo $column_quantity; ?></td>
 				<td class="text-right"><?php echo $column_price; ?></td>
 				<td class="text-right"><?php echo $column_total; ?></td>
@@ -64,82 +60,82 @@
 				  <br />
 				  <span class="label label-info"><?php echo $text_recurring_item; ?></span> <small><?php echo $product['recurring']; ?></small>
 				  <?php } ?></td>
-				<td class="text-left"><?php echo $product['model']; ?></td>
-				<td class="text-left" style="width: 18%;">
-					<div class="input-group btn-block cart-buttons-block">
-						<button type="submit" data-toggle="tooltip" title="<?php echo $button_update; ?>" class="btn btn-primary"><i class="fa fa-refresh"></i></button>
-						<input type="text" name="quantity[<?php echo $product['key']; ?>]" value="<?php echo $product['quantity']; ?>" size="1" class="form-control cart-q" id="cart-q" />
-						<button type="button" data-toggle="tooltip" title="<?php echo $button_remove; ?>" class="btn btn-danger" onclick="cart.remove('<?php echo $product['key']; ?>');"><i class="fa fa-times-circle"></i></button>
-					</div>
-				</td>
-				<td class="text-right"><div class="price"><?php echo $product['price']; ?></div></td>
-				<td class="text-right"><div class="price price-total"><?php echo $product['total']; ?></div></td>
-			  </tr>
-			  <?php } ?>
-			  <?php foreach ($vouchers as $vouchers) { ?>
-			  <tr>
-				<td></td>
-				<td class="text-left"><?php echo $vouchers['description']; ?></td>
-				<td class="text-left"></td>
-				<td class="text-left"><div class="input-group btn-block" style="max-width: 200px;">
-					<input type="text" name="" value="1" size="1" disabled="disabled" class="form-control" />
-					<span class="input-group-btn"><button type="button" data-toggle="tooltip" title="<?php echo $button_remove; ?>" class="btn btn-danger" onclick="voucher.remove('<?php echo $vouchers['key']; ?>');"><i class="fa fa-times-circle"></i></button></span></div></td>
-				<td class="text-right"><?php echo $vouchers['amount']; ?></td>
-				<td class="text-right"><?php echo $vouchers['amount']; ?></td>
-			  </tr>
-			  <?php } ?>
-			</tbody>
-		  </table>
-		</div>
-	  </form>
-	  <div class="row">
-		<div class="col-sm-6 col-sm-offset-6">
-		  <table class="table table-bordered">
-			<?php foreach ($totals as $total) { ?>
-			<tr>
-			  <td class="text-right"><strong><?php echo $total['title']; ?>:</strong></td>
-			  <td class="text-right"><div class="price"><?php echo $total['text']; ?></div></td>
-			</tr>
-			<?php } ?>
-		  </table>
-		</div>
-	  </div>
-	  <div class="buttons">
-		<div class="" style="float: right;"><a href="<?php echo $continue; ?>" class="btn btn-default"><?php echo $button_shopping; ?></a></div>
-		<div class="pull-right" style="margin-right: 10px;"><a href="<?php echo $checkout; ?>" class="btn btn-primary"><?php echo $button_checkout; ?></a></div>
-	  </div>
-	  <?php echo $content_bottom; ?></div>
-	<?php echo $column_right; ?></div>
-</div>
-<script>
-		document.getElementById('cart-q').onkeypress = function(e) {
+				  <!--<td class="text-left"><?php echo $product['model']; ?></td>-->
+                  <td class="text-left" style="width: 18%;">
+                      <div class="input-group btn-block cart-buttons-block">
+                          <button type="submit" data-toggle="tooltip" title="<?php echo $button_update; ?>" class="btn btn-primary"><i class="fa fa-refresh"></i></button>
+                          <input type="text" style="text-align:center;" name="quantity[<?php echo $product['key']; ?>]" value="<?php echo $product['quantity']; ?>" size="1" class="form-control cart-q" id="cart-q" />
+                          <button type="button" data-toggle="tooltip" title="<?php echo $button_remove; ?>" class="btn btn-danger" onclick="cart.remove('<?php echo $product['key']; ?>');"><i class="fa fa-times-circle"></i></button>
+                      </div>
+                  </td>
+                  <td class="text-right"><div class="price"><?php echo $product['price']; ?></div></td>
+                  <td class="text-right"><div class="price price-total"><?php echo $product['total']; ?></div></td>
+                </tr>
+                <?php } ?>
+                <?php foreach ($vouchers as $vouchers) { ?>
+                <tr>
+                  <td></td>
+                  <td class="text-left"><?php echo $vouchers['description']; ?></td>
+                  <td class="text-left"></td>
+                  <td class="text-left"><div class="input-group btn-block" style="max-width: 200px;">
+                      <input type="text" name="" value="1" size="1" disabled="disabled" class="form-control" />
+                      <span class="input-group-btn"><button type="button" data-toggle="tooltip" title="<?php echo $button_remove; ?>" class="btn btn-danger" onclick="voucher.remove('<?php echo $vouchers['key']; ?>');"><i class="fa fa-times-circle"></i></button></span></div></td>
+                  <td class="text-right"><?php echo $vouchers['amount']; ?></td>
+                  <td class="text-right"><?php echo $vouchers['amount']; ?></td>
+                </tr>
+                <?php } ?>
+                <?php foreach ($totals as $total) {
+                      if($total['title'] == 'Итого'){
+                  ?>
+                <tr>
+                    <td style="border: none;"></td>
+                    <td style="border: none;"></td>
+					<!--<td style="border: none;"></td>-->
+                    <td style="border: none;"></td>
+                    <td class="text-right"><strong><?php echo $total['title']; ?>:</strong></td>
+                    <td class="text-right"><div class="price"><?php echo $total['text']; ?></div></td>
+                </tr>
+                <?php } } ?>
+              </tbody>
+            </table>
+          </div>
+        </form>
+        <div class="buttons" style="float: right; display: inline-flex;">
+          <div class="" style="margin-right:10px;"><a href="<?php echo $continue; ?>" class="btn btn-default"><?php echo $button_shopping; ?></a></div>
+          <div class="" style=""><a href="<?php echo $checkout; ?>" class="btn btn-primary"><?php echo $button_checkout; ?></a></div>
+        </div>
+        <?php echo $content_bottom; ?></div>
+      <?php echo $column_right; ?></div>
+  </div>
+  <script>
+          document.getElementById('cart-q').onkeypress = function(e) {
 
-  e = e || event;
+    e = e || event;
 
-  if (e.ctrlKey || e.altKey || e.metaKey) return;
+    if (e.ctrlKey || e.altKey || e.metaKey) return;
 
-  var chr = getChar(e);
+    var chr = getChar(e);
 
-  if (chr == null) return;
+    if (chr == null) return;
 
-  if (chr < '0' || chr > '9') {
-    return false;
+    if (chr < '0' || chr > '9') {
+      return false;
+    }
+
   }
 
-}
+  function getChar(event) {
+    if (event.which == null) {
+      if (event.keyCode < 32) return null;
+      return String.fromCharCode(event.keyCode) // IE
+    }
 
-function getChar(event) {
-  if (event.which == null) {
-    if (event.keyCode < 32) return null;
-    return String.fromCharCode(event.keyCode) // IE
+    if (event.which!=0 && event.charCode!=0) {
+      if (event.which < 32) return null;
+      return String.fromCharCode(event.which)
+    }
+
+    return null;
   }
-
-  if (event.which!=0 && event.charCode!=0) {
-    if (event.which < 32) return null;
-    return String.fromCharCode(event.which)   
-  }
-
-  return null; 
-}
-</script>
-<?php echo $footer; ?> 
+  </script>
+  <?php echo $footer; ?>
