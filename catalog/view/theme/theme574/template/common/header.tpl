@@ -64,14 +64,31 @@
 <!-- swipe menu -->
 <div class="swipe">
     <div class="swipe-menu">
-		<ul>
 
+		<ul class="foot foot-1">
+			<?php if ($categories) { ?>
+			<div class="container">
+				<div id="menu-gadget" class="menu-gadget">
+
+					<?php if ($categories_tm) {  echo $categories_tm; } ?>
+				</div>
+			</div>
+
+			<script type="text/javascript">
+                jQuery(window).load(function () {
+                    if ($('body').width() > 767) {
+                        $('#tm_menu').TMStickUp({})
+
+                    }});
+			</script>
+
+			<?php } ?>
 		</ul>
-		<ul class="foot">
+		<!--<ul class="foot">
 			<li><a href="http://fakro1.dev/delivery">Доставка и оплата</a></li>
 			<li><a href="http://fakro1.dev/contact-us">Контакты</a></li>
 		</ul>
-        <!--<ul class="foot foot-1">
+        <ul class="foot foot-1">
             <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
             <li><a href="<?php echo $return; ?>"><?php echo $text_return; ?></a></li>
             <li><a href="<?php echo $sitemap; ?>"><?php echo $text_sitemap; ?></a></li>
@@ -146,7 +163,7 @@
 		
 	</div>
 
-
+<!--
 	<?php if ($categories) { ?>
 	<div class="container">
 		<div id="menu-gadget" class="menu-gadget">
@@ -172,6 +189,6 @@
 		</div>
 	</div>
 	<?php } ?>
-
+-->
 </header>
 
