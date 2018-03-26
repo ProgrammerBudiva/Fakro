@@ -164,7 +164,7 @@
 			  <div class="caption">
 				<div class="name name-product"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></div>
 				
-				<div class="description-small"><?php echo mb_substr($product['description'],0,62,'UTF-8').'...'; ?></div>
+				<!--<div class="description-small"><?php echo mb_substr($product['description'],0,62,'UTF-8').'...'; ?></div>-->
 				<div class="description"><?php echo $product['description']; ?></div>				
 				
 				<?php if ($product['price']) { ?>

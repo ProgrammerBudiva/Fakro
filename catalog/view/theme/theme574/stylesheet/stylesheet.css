@@ -1391,7 +1391,7 @@ div.required .control-label:before {
       display: table-cell;
       padding: 25px 25px 22px; }
       .nav__primary .menu > li > ul li a {
-        text-transform: uppercase;
+        /*text-transform: uppercase;*/
         font: 300 18px/22px "Ubuntu", sans-serif;
         color: #2d2e42; }
       .nav__primary .menu > li > ul li ul {
