@@ -356,7 +356,9 @@ input#input-coupon {
 body {
   font: 400 13px/18px "Ubuntu", sans-serif;
   color: #2d2e42;
-  background: #f5f5f5; }
+  background: #f5f5f5;
+  cursor: pointer;
+}
 
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0 25px;
@@ -830,7 +832,7 @@ div.required .control-label:before {
           color: #3aa935; }
 
 .swipe .foot li a:before {
-  content: "\f05a";
+  content: "\f0d1";
   font-family: "FontAwesome";
   display: inline-block; }
 
@@ -851,7 +853,7 @@ div.required .control-label:before {
   z-index: 88; }
 
 .swipe .foot li + li a:before {
-  content: "\f0d1"; }
+  content: "\f05a"; }
 .swipe .foot li + li + li a:before {
   content: "\f06a"; }
 .swipe .foot li + li + li + li a:before {
@@ -1281,7 +1283,9 @@ div.required .control-label:before {
 
 .menu-gadget .menu {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  display: none;
+}
   .menu-gadget .menu ul {
     width: auto;
     padding: 0;
