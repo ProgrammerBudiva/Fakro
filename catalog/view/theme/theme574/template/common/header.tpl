@@ -163,9 +163,9 @@
 		
 	</div>
 
-<!--
+
 	<?php if ($categories) { ?>
-	<div class="container">
+	<!--<div class="container">
 		<div id="menu-gadget" class="menu-gadget">
 			<div id="menu-icon" class="menu-icon"><?php echo $text_category; ?></div>
 			<?php if ($categories_tm) {  echo $categories_tm; } ?>
@@ -178,7 +178,7 @@
 			$('#tm_menu').TMStickUp({})
 		
 		}});
-	</script>
+	</script>-->
 
 	<div id="tm_menu" class="nav__primary">
 		<div class="test">
@@ -189,6 +189,6 @@
 		</div>
 	</div>
 	<?php } ?>
--->
+
 </header>
 
