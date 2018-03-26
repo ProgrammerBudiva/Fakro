@@ -37,7 +37,7 @@
                                 <label class="control-label" for="input-payment-lastname">Фамилия</label>
                                 <input type="text" name="lastname" value="" placeholder="Фамилия" id="input-payment-lastname" class="form-control" />
                             </div>
-                            <div class="form-group required">
+                            <div class="form-group">
                                 <label class="control-label" for="input-payment-email">E-Mail</label>
                                 <input type="text" name="email" value="" placeholder="E-Mail" id="input-payment-email" class="form-control" />
                             </div>
@@ -71,7 +71,7 @@
                                 <label class="control-label" for="input-payment-address-1">Адрес доставки</label>
                                 <textarea type="text" name="address_1" value="" placeholder="Адрес" id="input-payment-address-1" class="form-control"></textarea>
                             </div>
-                            <div class="form-group required">
+                            <div class="form-group">
                                 <label class="control-label" for="comment">Комментарий к заказу</label>
                                 <textarea type="text" name="comment" value="" placeholder="Комментарий" id="comment" class="form-control"></textarea>
                             </div>
