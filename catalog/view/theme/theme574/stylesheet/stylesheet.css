@@ -854,9 +854,9 @@ div.required .control-label:before {
 
 .swipe .foot li + li a:before {
   content: "\f05a"; }
-.swipe .foot li + li + li a:before {
-  content: "\f06a"; }
 .swipe .foot li + li + li + li a:before {
+  content: "\f06a"; }
+.swipe .foot li + li + li + li + li a:before {
   content: "\f085"; }
 .foot-1 .container{
   padding: 0;
