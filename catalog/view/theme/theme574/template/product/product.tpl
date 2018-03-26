@@ -324,7 +324,7 @@
 							<div class="radio">
 								<label>
 									<span style="margin-top: 18px;float: left;"><input type="radio" name="oklad-additional" checked  price_prefix="+" price="none" value="none" id="oklad-0"></span>
-									<img src="http://fakro.pro/image/no.png"  alt="Нет, спасибо не нужно" class="img-thumbnail" style="width: 52px;"> Нет, спасибо не нужно                                              </label>
+									<img src="http://fakro.pro/image/no.png"  alt="Оклад не нужен" class="img-thumbnail" style="width: 52px;"> Нет, спасибо не нужно                                              </label>
 							</div>
 						</div>
 						</div>
@@ -376,12 +376,7 @@
 						<?php } ?>
 					</div>
 					<?php } ?>
-					<div class="product-share">
-						<!-- AddThis Button BEGIN -->
-						<div class="addthis_toolbox addthis_default_style"><a class="addthis_button_facebook_like" ></a> <a class="addthis_button_tweet"></a> <a class="addthis_button_pinterest_pinit"></a> <a class="addthis_counter addthis_pill_style"></a></div>
-						<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-515eeaf54693130e"></script> 
-					<!-- AddThis Button END --> 
-					</div>
+
 
 					<?php if ($minimum > 1) { ?>
 						<div class="alert alert-info"><i class="fa fa-info-circle"></i> <?php echo $text_minimum; ?></div>
