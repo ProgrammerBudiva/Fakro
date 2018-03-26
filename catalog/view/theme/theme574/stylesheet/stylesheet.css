@@ -854,9 +854,9 @@ div.required .control-label:before {
 
 .swipe .foot li + li a:before {
   content: "\f05a"; }
-.swipe .foot li + li + li + li a:before {
+.swipe .foot li + li + li a:before {
   content: "\f06a"; }
-.swipe .foot li + li + li + li + li a:before {
+.swipe .foot li + li + li + li a:before {
   content: "\f085"; }
 .foot-1 .container{
   padding: 0;
@@ -865,9 +865,9 @@ div.required .control-label:before {
   content: "\f0e8"; }
 /*.swipe .foot.foot-1 li + li a:before {*/
   /*content: "\f079"; }*/
-.swipe .foot.foot-1 li + li + li + li a:before {
-  content: "\f0d1"; }
 .swipe .foot.foot-1 li + li + li + li + li a:before {
+  content: "\f0d1"; }
+.swipe .foot.foot-1 li + li + li + li + li + li a:before {
   content: "\f05a"; }
 
 .swipe .foot.foot-2 li a:before {
