@@ -2844,9 +2844,11 @@ footer {
 .toTop:visited, .toTop:focus, .toTop:active {
   color: #fff; }
 
-@media only screen and (max-width: 1399px) {
+@media only screen and (max-width: 768px) {
   .toTop {
     /*display: none !important; */
+    right: 10px;
+    bottom: 10px;
   } }
 /* alert */
 .alert {

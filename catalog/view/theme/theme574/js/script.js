@@ -19,14 +19,14 @@ $(function(){
  ========================================================*/
 ;
 (function ($) {
-    var o = $('html');
-    if (o.hasClass('desktop')) {
+    // var o = $('html');
+    // if (o.hasClass('desktop')) {
         include('js/jquery.ui.totop.js');
 
         $(document).ready(function () {
             $().UItoTop({easingType: 'easeOutQuart'});
         });
-    }
+    // }
 })(jQuery);
 
 
