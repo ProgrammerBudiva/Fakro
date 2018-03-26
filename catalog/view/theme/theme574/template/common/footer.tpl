@@ -11,7 +11,7 @@
 		<div class="col-sm-3">			
 			<?php if ($logo) { ?>
 			<div class="logo">
-			    <a href="<?php echo $home; ?>"><img src="/image/catalog/LOGO_FAKRO UA.png" alt="" class="img-responsive" /></a>
+			    <a href="<?php echo $home; ?>"><img src="/image/catalog/logo-fakro-ua-подвал.png" alt="" class="img-responsive" /></a>
                 <div style="margin-top: 5px; font-size: 15px;">
                     Мансардные окна FAKRO <br> с доставкой по всей Украине <br> от официального дилера
                 </div>
