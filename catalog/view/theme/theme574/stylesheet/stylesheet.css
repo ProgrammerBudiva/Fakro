@@ -361,7 +361,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 10px 0 25px;
+  margin: 25px 0 10px;
   color: #2d2e42;
   font-weight: 300;
   text-transform: uppercase; }
