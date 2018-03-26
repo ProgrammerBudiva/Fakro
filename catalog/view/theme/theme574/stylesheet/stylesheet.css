@@ -2846,7 +2846,8 @@ footer {
 
 @media only screen and (max-width: 1399px) {
   .toTop {
-    display: none !important; } }
+    /*display: none !important; */
+  } }
 /* alert */
 .alert {
   position: relative;
