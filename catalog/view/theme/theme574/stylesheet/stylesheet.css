@@ -357,7 +357,7 @@ body {
   font: 400 13px/18px "Ubuntu", sans-serif;
   color: #2d2e42;
   background: #f5f5f5;
-  cursor: pointer;
+  cursor: pointer!important;
 }
 
 h1, h2, h3, h4, h5, h6 {
