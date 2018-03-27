@@ -756,7 +756,7 @@ div.required .control-label:before {
   border-bottom: 1px solid #fbfbfb; }
 
 .toprow-1:after {
-  top: 50px;
+  top: 90px;
   left: 0;
   height: 8px;
   width: 100%;
@@ -768,7 +768,7 @@ div.required .control-label:before {
 .swipe-control {
   border-right: 1px solid #e5e5e5;
   display: block;
-  height: 50px;
+  height: 90px;
   vertical-align: top;
   text-align: center;
   width: 64px;
@@ -790,10 +790,10 @@ div.required .control-label:before {
   overflow: hidden;
   position: fixed;
   top: 50px;
-  width: 237px;
+  width: 280px;
   z-index: 101;
   bottom: 0;
-  left: -237px;
+  left: -280px;
   -moz-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
   -webkit-transition: 0.3s all ease;
@@ -897,9 +897,7 @@ div.required .control-label:before {
     display: block; } }
 @media (max-width: 767px) {
   .header {
-    padding-top: 50px; }
-    .header .search {
-      float: none; }
+    padding-top: 90px; }
     .header .box-currency {
       margin-right: 0;
       padding: 0; }
@@ -1163,7 +1161,7 @@ div.required .control-label:before {
   border: none; }
 .cart .toggle_cont {
   height: auto !important;
-  z-index: 1001;
+  z-index: 9999;
   min-width: 260px;
   list-style: outside none none; }
   .cart .toggle_cont img {
@@ -1248,7 +1246,70 @@ div.required .control-label:before {
         box-shadow: none; }
       .box-cart .cart .toggle_cont {
         max-height: 300px;
-        overflow: auto; } }
+        overflow: auto;
+        top:90px;
+      }
+      .box-cart.compare {
+        position: fixed;
+        top: 40px;
+        z-index: 9999;
+        height: 50px;
+        border-left: 1px solid #e5e5e5;
+      }
+    .box-cart.compare i{
+      color: #3aa935!important;
+    }
+      #search-2{
+        position: fixed;
+        z-index: 9999;
+        top:53px;
+        left:19px;
+        font-size:25px;
+        line-height: 25px;
+        display: block!important;
+      }
+      #search{
+        background: #fff;
+        padding: 10px 10px 6px;
+        position: fixed;
+        z-index: 9999;
+        margin: 0 auto;
+        top:90px;
+        width: fit-content;
+        left: 0;
+        right: 0;
+        display: none;
+      }
+      .active-gadget{
+        display: block!important;
+      }
+      .call_me.toggle-wrap{
+        display: none;
+      }
+      #logo{
+        position:fixed;
+        top:10px;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        margin: 0 auto;
+        width: fit-content;
+      }
+      .header .logo img{
+        max-width: 170px;
+      }
+      .header .phone-number {
+        z-index: 9997;
+        position: fixed;
+        top:57px;
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+        left: 0;
+        right:0;
+        width: fit-content;
+      }
+}
 /*=================== Menu gadget ===================*/
 .menu-icon {
   position: relative;
@@ -4299,4 +4360,7 @@ input#input-coupon {
   border: 1px solid #f2f2f2;
   box-shadow: 0 4px 5px #f2f2f2;
   margin: 0;
+}
+#search-2{
+  display: none;
 }

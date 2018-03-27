@@ -73,6 +73,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.13/jquery.mask.min.js"></script>
 <script>
     $('#footer-phone').mask("+38 (999) 999-99-99");
+
+    $('#search-2').click(function(){
+       $('#search').toggleClass('active-gadget');
+    });
 </script>
 </div>
 

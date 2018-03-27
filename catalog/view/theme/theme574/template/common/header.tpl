@@ -158,7 +158,9 @@
 			</span>
 			</div>
 		<?php echo $search; ?>
-		
+		<span id="search-2">
+			<i class="material-design-search100" style="color: #3aa935;"></i>
+		</span>
 		</div>
 		
 	</div>
