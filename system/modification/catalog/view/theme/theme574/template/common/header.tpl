@@ -71,35 +71,30 @@
 <!-- swipe menu -->
 <div class="swipe">
     <div class="swipe-menu">
-        <ul>
 
-            <li><a href="<?php echo $account; ?>" title="<?php echo $text_account; ?>"><i class="fa fa-user"></i><span><?php echo $text_account; ?></span></a></li>
-            <?php if ($logged) { ?>
-                <li><a href="<?php echo $order; ?>"><i class="fa fa-file-text-o"></i><?php echo $text_order; ?></a></li>
-                <li><a href="<?php echo $transaction; ?>"><i class="fa fa-exchange"></i><?php echo $text_transaction; ?></a></li>
-                <li><a href="<?php echo $download; ?>"><i class="fa fa-download"></i><?php echo $text_download; ?></a></li>
-                <li><a href="<?php echo $logout; ?>"><i class="fa fa-unlock"></i><?php echo $text_logout; ?></a></li>
-            <?php } else { ?>
-                <li><a href="<?php echo $register; ?>"><i class="fa fa-user"></i> <?php echo $text_register; ?></a></li>
-                <li><a href="<?php echo $login; ?>"><i class="fa fa-lock"></i><?php echo $text_login; ?></a></li>
-            <?php } ?>
-            <li><a href="<?php echo $wishlist; ?>" id="wishlist-total2" title="<?php echo $text_wishlist; ?>"><i
-                        class="fa fa-heart"></i> <span><?php echo $text_wishlist;?></span></a>
-            </li>
-            <li><a href="<?php echo $shopping_cart; ?>" title="<?php echo $text_shopping_cart; ?>"><i
-                        class="fa fa-shopping-cart"></i> <span><?php echo $text_shopping_cart; ?></span></a></li>
-            <li><a href="<?php echo $checkout; ?>" title="<?php echo $text_checkout; ?>"><i class="fa fa-share"></i>
-                    <span><?php echo $text_checkout; ?></span></a></li>
-        </ul>
-        <?php if ($maintenance == 0){ ?>
-            <ul class="foot">
-                <?php if ($informations) { ?>
-                    <?php foreach ($informations as $information) { ?>
-                        <li><a href="<?php echo $information['href']; ?>"><?php echo $information['title']; ?></a></li>
-                    <?php } ?>
-                <?php } ?>
-            </ul>
-        <?php } ?>
+		<ul class="foot foot-1">
+			<?php if ($categories) { ?>
+			<div class="container">
+				<div id="menu-gadget" class="menu-gadget">
+
+					<?php if ($categories_tm) {  echo $categories_tm; } ?>
+				</div>
+			</div>
+
+			<script type="text/javascript">
+                jQuery(window).load(function () {
+                    if ($('body').width() > 767) {
+                        $('#tm_menu').TMStickUp({})
+
+                    }});
+			</script>
+
+			<?php } ?>
+		</ul>
+		<!--<ul class="foot">
+			<li><a href="http://fakro1.dev/delivery">Доставка и оплата</a></li>
+			<li><a href="http://fakro1.dev/contact-us">Контакты</a></li>
+		</ul>
         <ul class="foot foot-1">
             <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
             <li><a href="<?php echo $return; ?>"><?php echo $text_return; ?></a></li>
@@ -115,7 +110,7 @@
         <ul class="foot foot-3">
             <li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
             <li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li>
-        </ul>
+        </ul>-->
     </div>
 </div>
 <div id="page">
@@ -128,7 +123,7 @@
 	<div class="container">
 		<div id="logo" class="logo">
 			<?php if ($logo) { ?>
-			<a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
+			<a href="/"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
 			<?php } else { ?>
 			<h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
 			<?php } ?>
@@ -152,25 +147,7 @@
 			</a>
 		</div>
 
-		<div class="button-account toggle-wrap">
-			<span class="toggle material-design-user157"  type="button"></span>
-			<div class="toggle_cont pull-right">
-				<?php if ($logged) { ?>
-				<ul class="list-unstyled">
-					<li><a href="<?php echo $wishlist; ?>"><?php echo $text_wishlist; ?></a></li>
-					<li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
-					<li><a href="<?php echo $shopping_cart; ?>"><?php echo $text_shopping_cart; ?></a></li>
-					<li><a href="<?php echo $checkout; ?>"><?php echo $text_checkout; ?></a></li>
-					<li><a href="<?php echo $logout; ?>"><?php echo $text_logout; ?></a></li>
-				</ul>
-				<?php } else { ?>
-				<ul class="list-unstyled">
-					<li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li>
-					<li><a href="<?php echo $register; ?>"><?php echo $text_register; ?></a></li>
-				</ul>
-				<?php } ?>
-			</div>
-		</div>
+
 		<div class="call_me toggle-wrap" >
 		<div data-toggle="collapse" data-target="#demo" class="call_me_div" >
 			<span>Перезвоните мне</span>
@@ -188,14 +165,16 @@
 			</span>
 			</div>
 		<?php echo $search; ?>
-		
+		<span id="search-2">
+			<i class="material-design-search100" style="color: #3aa935;"></i>
+		</span>
 		</div>
 		
 	</div>
 
 
 	<?php if ($categories) { ?>
-	<div class="container">
+	<!--<div class="container">
 		<div id="menu-gadget" class="menu-gadget">
 			<div id="menu-icon" class="menu-icon"><?php echo $text_category; ?></div>
 			<?php if ($categories_tm) {  echo $categories_tm; } ?>
@@ -208,7 +187,7 @@
 			$('#tm_menu').TMStickUp({})
 		
 		}});
-	</script>
+	</script>-->
 
 	<div id="tm_menu" class="nav__primary">
 		<div class="test">

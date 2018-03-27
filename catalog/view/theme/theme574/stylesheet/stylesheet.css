@@ -789,7 +789,7 @@ div.required .control-label:before {
   display: block;
   overflow: hidden;
   position: fixed;
-  top: 50px;
+  top: 90px;
   width: 280px;
   z-index: 101;
   bottom: 0;
