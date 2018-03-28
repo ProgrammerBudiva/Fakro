@@ -1440,7 +1440,9 @@ div.required .control-label:before {
     padding: 0; }
   .nav__primary .menu > li {
     float: left;
-    padding: 25px 15px 23px; }
+    padding: 25px 15px 23px;
+    position: relative;
+  }
     .nav__primary .menu > li:first-child {
       padding-left: 0; }
     .nav__primary .menu > li > a {
