@@ -1309,6 +1309,13 @@ div.required .control-label:before {
         right:0;
         width: fit-content;
       }
+      .static-menu-item ul{
+        display: none;
+        border-top:1px solid #dcdcdc;
+      }
+      .static-menu-item i {
+        margin-top: -10px;
+      }
 }
 /*=================== Menu gadget ===================*/
 .menu-icon {
@@ -1358,7 +1365,8 @@ div.required .control-label:before {
   .menu-gadget .menu li {
     position: relative;
     list-style-type: none; }
-    .menu-gadget .menu li i {
+    .menu-gadget .menu li i,
+    .static-menu .static-menu-item i{
       position: absolute;
       display: block;
       top: 0;
@@ -1394,7 +1402,8 @@ div.required .control-label:before {
   .menu-gadget .menu li li li a {
     padding: 10px 15px 10px 35px; }
 
-.menu-gadget .menu li i.fa-angle-up:before {
+.menu-gadget .menu li i.fa-angle-up:before,
+.static-menu .static-menu-item i.fa-angle-up:before{
   content: "" !important; }
 
 @media (max-width: 767px) {
@@ -2419,7 +2428,11 @@ div.required .control-label:before {
     color: #2d2e42; }
 
 .green {
-  color: green; }
+  color: green!important; }
+.bottom-border-static-menu{
+  border-bottom: 1px solid #dcdcdc;
+  padding-bottom: 4px;
+}
 
 .product-info {
   text-transform: uppercase; }
@@ -4330,7 +4343,7 @@ input#input-coupon {
 }
 @media screen and (max-width: 480px) {
   .static-menu-item{
-    min-width: 45%;
+    min-width: 90%;
     margin-top: 10px;
   }
 }

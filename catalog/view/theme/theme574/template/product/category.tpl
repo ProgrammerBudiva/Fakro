@@ -1,13 +1,18 @@
 <?php echo $header; ?>
 <div class="container">
-
+	<ul class="breadcrumb">
+		<?php foreach ($breadcrumbs as $breadcrumb) { ?>
+		<li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
+		<?php } ?>
+	</ul>
 	<!-- Additional menu category -->
 
 	<?php if(isset($sub_categories) && !isset($no_sub_categories)){ ?>
 	<div class="static-menu">
 		<?php foreach($sub_categories as $sub_category){ ?>
-			<div class="static-menu-item">
+			<div class="static-menu-item bottom-border-static-menu" style="position: relative;">
 				<a href=" <?php echo $sub_category['href']; ?> " class="static-menu-item-title"><?php echo $sub_category['name']; ?></a>
+				<i class="fa fa-angle-down"></i>
 				<ul>
 					<?php foreach($sub_category['products'] as $product){ ?>
 						<li style="">
@@ -22,11 +27,7 @@
 
 	<!-- END Additional menu category -->
 
-  <ul class="breadcrumb">
-	<?php foreach ($breadcrumbs as $breadcrumb) { ?>
-	<li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
-	<?php } ?>
-  </ul>
+
   <div class="row"><?php echo $column_left; ?>
 	<?php if ($column_left && $column_right) { ?>
 	<?php $class = 'col-sm-6'; ?>
