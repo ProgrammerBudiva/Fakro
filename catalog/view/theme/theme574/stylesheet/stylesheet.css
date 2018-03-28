@@ -1463,7 +1463,7 @@ div.required .control-label:before {
     z-index: 99;
     left: 0;
     top: 100%;
-    width: auto;
+    width: max-content;
     margin-top: 0;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
