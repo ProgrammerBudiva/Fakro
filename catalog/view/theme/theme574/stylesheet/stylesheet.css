@@ -1470,7 +1470,7 @@ div.required .control-label:before {
   }
     .nav__primary .menu > li > ul li {
       position: relative;
-      display: table-cell;
+      display: table-row-group;
       padding: 25px 25px 22px; }
       .nav__primary .menu > li > ul li a {
         /*text-transform: uppercase;*/
