@@ -49,10 +49,9 @@
 		<?php } ?>
 
 	  </div>
-	  <br><br>
 	  <?php } ?>
 	  <?php if ($categories) { ?>
-	  <h3><?php echo $text_refine; ?></h3>
+	  <p class="sub-category"><?php echo $text_refine; ?></p>
 	  
 	  <div class="row">
 		<div >
@@ -127,16 +126,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="nav-cat clearfix">
-			<div class="pull-left"><?php echo $pagination; ?></div>
-			<div class="pull-left nam-page"><?php echo $results; ?></div>
-			<div class="pull-right">
-				<a href="<?php echo $compare; ?>" id="compare-total">
-					<?php echo $text_compare; ?>
-					<i class="fa fa-chevron-right"></i>
-				</a>
-			</div>
-		</div>
+
 	  <div class="row">
 		<?php foreach ($products as $product) { ?>
 		<div class="product-layout product-list col-xs-12">
@@ -204,10 +194,20 @@
 		</div>
 		<?php } ?>
 	  </div>
-	  <div class="row">
+	  <!--<div class="row">
 		<div class="col-sm-6 text-left"><?php echo $pagination; ?></div>
 		<div class="col-sm-6 text-right"><?php echo $results; ?></div>
-	  </div>
+	  </div>-->
+		<div class="nav-cat clearfix">
+			<div class="pull-left"><?php echo $pagination; ?></div>
+			<div class="pull-left nam-page"><?php echo $results; ?></div>
+			<div class="pull-right">
+				<a href="<?php echo $compare; ?>" id="compare-total">
+					<?php echo $text_compare; ?>
+					<i class="fa fa-chevron-right"></i>
+				</a>
+			</div>
+		</div>
 		<?php if ($description) { ?>
 		<div class="row" style="margin:0; margin-top: 30px;">
 			<?php echo $description; ?>
