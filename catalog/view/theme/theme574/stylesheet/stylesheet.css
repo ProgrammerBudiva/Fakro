@@ -365,7 +365,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 6px 0 15px;
+  margin: 16px 0 7px;
   color: #2d2e42;
   font-weight: 300;
   text-transform: uppercase; }
@@ -866,14 +866,15 @@ div.required .control-label:before {
   padding: 0;
 }
 .swipe .foot.foot-1 li a:before {
-  content: "\f0e8"; }
-/*.swipe .foot.foot-1 li + li a:before {*/
-  /*content: "\f079"; }*/
-.swipe .foot.foot-1 li + li + li + li + li a:before {
-  content: "\f0d1"; }
-.swipe .foot.foot-1 li + li + li + li + li + li a:before {
-  content: "\f05a"; }
-
+  content: "\f05d"; }
+.swipe .foot.foot-1 a.delivery-font:before{
+  content: "\f0d1";
+}
+.swipe .foot.foot-1 a.about_us-font:before{
+  content: "\f05a";
+}
+.swipe .foot.foot-1 li ul a:before {
+  content: "\f18e"; }
 .swipe .foot.foot-2 li a:before {
   content: "\f02c"; }
 .swipe .foot.foot-2 li + li a:before {
@@ -4470,4 +4471,7 @@ input#input-coupon {
   font-size: 16px;
   font-weight: 300;
   color: #3aa935;
+}
+.bottom-border-static-menu-non{
+  border-bottom: none;
 }

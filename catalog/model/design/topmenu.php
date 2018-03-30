@@ -22,8 +22,8 @@ class ModelDesignTopmenu extends Model {
 				$category .= $this->getCatTree($top_cat['category_id'])."\n</li>\n";
 			}
 		}
-        $category .= '<li><a href="/delivery">Доставка и оплата</a></li>';
-        $category .= '<li><a href="/about_us">Контакты</a></li>';
+        $category .= '<li><a class="delivery-font" href="/delivery">Доставка и оплата</a></li>';
+        $category .= '<li><a class="about_us-font" href="/about_us">Контакты</a></li>';
 		return $category."\n</ul>\n";
 	} 	
 
