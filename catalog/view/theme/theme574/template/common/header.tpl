@@ -77,7 +77,6 @@
 			<script type="text/javascript">
                 jQuery(window).load(function () {
                     if ($('body').width() > 767) {
-                        $('#tm_menu').TMStickUp({})
 
                     }});
 			</script>
@@ -132,7 +131,11 @@
 			</div>
 		</div>
 		<?php } ?>
+		<span id="search-2">
+			<i class="material-design-search100" style="color: #3aa935;"></i>
+		</span>
 		<?php echo $cart; ?>
+
 		<div class=" box-cart compare toggle-wrap">
 			<a href="/compare-products">
 				<i class="material-design-shuffle24"></i>
@@ -158,9 +161,9 @@
 			</span>
 			</div>
 		<?php echo $search; ?>
-		<span id="search-2">
+		<!--<span id="search-2">
 			<i class="material-design-search100" style="color: #3aa935;"></i>
-		</span>
+		</span>-->
 		</div>
 		
 	</div>

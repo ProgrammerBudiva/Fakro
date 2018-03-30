@@ -300,7 +300,7 @@
 							<?php } ?>
 						<?php } ?>
 						<?php if($oklads === true){ ?>
-						<div class="form-group-required" style="display: block;float: right;margin-bottom: 15px;">
+						<div class="form-group-required" id="oklads" style="display: block;float: right;margin-bottom: 15px;">
 							<div id="input-oklad270">
 								<div class="radio">
 									<label>

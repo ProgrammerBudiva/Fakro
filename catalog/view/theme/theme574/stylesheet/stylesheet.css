@@ -4286,15 +4286,17 @@ input#input-coupon {
     padding: 10px 13px 6px 10px;
   }
   #search-2{
-    position: absolute;
-    right: 0;
+    /*position: absolute;*/
+    /*right: 0;*/
     font-size: 25px;
-    top:15px;
-    display: block!important;
+    margin-top:15px;
+    margin-left: 5px;
+    display: inline-block!important;
     z-index: 99999;
+    float: right;
   }
   .header .container .pull-right {
-    position: relative;
+    /*position: relative;*/
   }
   .header .container .pull-right .box-cart:first-child{
     margin-right: 34px;
@@ -4333,8 +4335,8 @@ input#input-coupon {
     -moz-box-shadow: none;
     box-shadow: none; }
   .box-cart .cart .toggle_cont {
-    max-height: 300px;
-    overflow: auto;
+    /*max-height: 300px;*/
+    /*overflow: auto;*/
     top:90px;
   }
   .box-cart.compare {
@@ -4355,6 +4357,7 @@ input#input-coupon {
     font-size:25px;
     line-height: 25px;
     display: block!important;
+    margin: 0;
   }
   #search{
     background: #fff;
@@ -4367,6 +4370,7 @@ input#input-coupon {
     left: 0;
     right: 0;
     display: none;
+    border: 1px solid #e2e2e2;
   }
   .active-gadget{
     display: block!important;
@@ -4404,12 +4408,27 @@ input#input-coupon {
   .static-menu-item i {
     margin-top: -10px;
   }
+  #cart .toggle{
+    position: fixed;
+    top:0;
+    right:10px;
+  }
+  #oklads{
+    float: none!important;
+  }
+  #product .form-horizontal .form-group{
+    display: flex;
+  }
+  #product [class*="col-sm-"]{
+    margin-top: 0!important;
+  }
 }
 @media screen and (max-width: 480px) {
   .static-menu-item{
     min-width: 90%;
     margin-top: 10px;
   }
+
 }
 
 /*Magnific popup*/
