@@ -12,7 +12,7 @@
 			<?php if ($logo) { ?>
 			<div class="logo">
 			    <a href="<?php echo $home; ?>"><img src="/image/catalog/logo-fakro-ua-подвал.png" alt="" class="img-responsive" /></a>
-                <div style="margin-top: 5px; font-size: 15px;">
+                <div style="margin-top: 9px; font-size: 13px;line-height:15px;">
                     Мансардные окна FAKRO <br> с доставкой по всей Украине <br> от официального дилера
                 </div>
 			</div>
@@ -38,7 +38,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-3 cast" style="margin-top: 10px;">
+        <div class="col-sm-3 cast" style="margin-top: 18px;">
             <div class="footer_box">
                 <div class=" toggle-wrap  phone-number">
 			        <span style="font-size: 23px; letter-spacing: -1px; font-weight: 400;">
@@ -48,10 +48,9 @@
                 </div>
                 <div class="free-phone">звонок бесплатный</div>
                 <div class="mail">info@fakro.pro</div>
-                <div class="mail">звонок бесплатный</div>
             </div>
         </div>
-		<div class="col-sm-2 cast">
+		<div class="col-sm-2 cast" style="margin-top: 3px;">
 
         <?php foreach($data['categories'] as $category){ ?>
             <div class="footer_box">

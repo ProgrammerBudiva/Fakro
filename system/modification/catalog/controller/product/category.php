@@ -101,7 +101,7 @@ class ControllerProductCategory extends Controller {
         /*
          * Additional menu category
          */
-            if($category_info['parent_id'] === '0'){
+            if($category_info['parent_id'] === '0' && $category_id === 33){
                 $sub_categories = $this->model_catalog_category->getCategories($category_info['category_id']);
                 if(count($sub_categories) !== 0) {
                     $i = 0;
