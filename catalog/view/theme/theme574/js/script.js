@@ -489,11 +489,11 @@ $(document).ready(function () {
     $('.static-menu .static-menu-item i').on("click", function () {
 
         if ($(this).hasClass('fa-angle-up')) {
-            $(this).removeClass('fa-angle-up').parent('div').find('> ul').slideToggle().addClass('bottom-border-static-menu');
+            $(this).removeClass('fa-angle-up').parent('div').removeClass('bottom-border-static-menu-non').find('> ul').slideToggle().addClass('bottom-border-static-menu');
             $(this).removeClass('green').parent('div').find('.static-menu-item-title').removeClass('green');
         }
         else {
-            $(this).addClass('fa-angle-up').parent('div').find('> ul').slideToggle().removeClass('bottom-border-static-menu');
+            $(this).addClass('fa-angle-up').parent('div').addClass('bottom-border-static-menu-non').find('> ul').slideToggle().removeClass('bottom-border-static-menu');
             $(this).addClass('green').parent('div').find('.static-menu-item-title').addClass('green');
         }
     });

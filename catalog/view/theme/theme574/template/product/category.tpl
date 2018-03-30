@@ -53,7 +53,7 @@
 	  <?php if ($categories) { ?>
 	  <p class="sub-category"><?php echo $text_refine; ?></p>
 	  
-	  <div class="row">
+	  <div class="row subcat-container">
 		<div >
 		  <ul class="box-subcat">
 			<?php $i=0; foreach ($categories as $category) { $i++; ?>
