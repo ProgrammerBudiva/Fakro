@@ -214,6 +214,16 @@ class ControllerProductProduct extends Controller {
 				'href' => $this->url->link('product/product', $url . '&product_id=' . $this->request->get['product_id'])
 			);
 
+            $product_cat = $this->model_catalog_product->getCategories($product_id);
+            $oklads = false;
+            foreach ($product_cat as $category_id){
+                $parent = $this->model_catalog_category->getCategory($category_id['category_id']);
+                if($category_id['category_id'] == 33 || $parent['parent_id'] == 33){
+                    $oklads = true;
+                    break;
+                }
+            }
+            $data['oklads'] = $oklads;
 			$this->document->setTitle($product_info['meta_title']);
 			$this->document->setDescription($product_info['meta_description']);
 			$this->document->setKeywords($product_info['meta_keyword']);
@@ -333,7 +343,7 @@ class ControllerProductProduct extends Controller {
 			}
 
 			$data['options'] = array();
-//            echo "<pre>"; print_r($this->model_catalog_product->getProductOptions($this->request->get['product_id'])); echo "</pre>";
+
 			foreach ($this->model_catalog_product->getProductOptions($this->request->get['product_id']) as $option) {
 				$product_option_value_data = array();
 

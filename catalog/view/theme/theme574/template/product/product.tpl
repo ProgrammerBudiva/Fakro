@@ -299,35 +299,37 @@
 								<?php } ?>
 							<?php } ?>
 						<?php } ?>
+						<?php if($oklads === true){ ?>
 						<div class="form-group-required" style="display: block;float: right;margin-bottom: 15px;">
-						<div id="input-oklad270">
-							<div class="radio">
-								<label>
-									<span style="margin-top: 18px;float: left;"><input type="radio" name="oklad-additional" option_id="268" option_id_value="" price_prefix="+" price="0.0000" value="51-268" id="oklad-51"></span>
-									<img src="https://fakro.pro/image/cache/catalog/ESV оклад/БИТУМНАЯ ЧЕРЕПИЦА-47x47.jpg" alt="ESV — ↕ до 10мм (битумная черепица, рубероид и др.)" class="img-thumbnail">ESV — ↕ до 10мм (битумная черепица, рубероид и др.)                                              </label>
-							</div>
-							<div class="radio">
-								<label>
-									<span style="margin-top: 18px;float: left;"><input type="radio" name="oklad-additional" option_id="269" option_id_value="" price_prefix="+" price="0.0000" value="1170" id="oklad-52"></span>
-									<img src="https://fakro.pro/image/cache/catalog/EZV оклад/меттталочерепица-47x47.jpg" alt="EZV — ↕ до 45 мм (метало-черепица, шифер и др.)" class="img-thumbnail"> EZV — ↕ до 45 мм (метало-черепица, шифер и др.)                                              </label>
-							</div>
-							<div class="radio">
-								<label>
-									<span style="margin-top: 18px;float: left;"><input type="radio" name="oklad-additional" option_id="270" option_id_value="" price_prefix="+" price="0.0000" value="1170" id="oklad-53"></span>
-									<img src="https://fakro.pro/image/cache/catalog/EHN оклад/ВЫСОКОПРОФИЛИРОВАННЫЕ-47x47.jpg" alt="EHN — ↕ от 45-90мм (натуральная черепица, шифер и др.)" class="img-thumbnail"> EHN — ↕ от 45-90мм (натуральная черепица, шифер и др.)                                            </label>
-							</div>
-							<div class="radio">
-								<label>
-									<span style="margin-top: 18px;float: left;"><input type="radio" name="oklad-additional" option_id="271" option_id_value="" price_prefix="+" price="0.0000" value="1170" id="oklad-54"></span>
-									<img src="https://fakro.pro/image/cache/catalog/EHN-AT Thermo оклад/ТЕРМО-47x47.jpg" alt="EHV-AT Thermo — с дополнительной теплоизоляцией" class="img-thumbnail"> EHV-AT Thermo — с дополнительной теплоизоляцией                                            </label>
-							</div>
-							<div class="radio">
-								<label>
-									<span style="margin-top: 18px;float: left;"><input type="radio" name="oklad-additional" checked  price_prefix="+" price="none" value="none" id="oklad-0"></span>
-									<img src="http://fakro.pro/image/no.png"  alt="Оклад не нужен" class="img-thumbnail" style="width: 52px;">Оклад не нужен                                              </label>
+							<div id="input-oklad270">
+								<div class="radio">
+									<label>
+										<span style="margin-top: 18px;float: left;"><input type="radio" name="oklad-additional" option_id="268" option_id_value="" price_prefix="+" price="0.0000" value="51-268" id="oklad-51"></span>
+										<img src="https://fakro.pro/image/cache/catalog/ESV оклад/БИТУМНАЯ ЧЕРЕПИЦА-47x47.jpg" alt="ESV — ↕ до 10мм (битумная черепица, рубероид и др.)" class="img-thumbnail">ESV — ↕ до 10мм (битумная черепица, рубероид и др.)                                              </label>
+								</div>
+								<div class="radio">
+									<label>
+										<span style="margin-top: 18px;float: left;"><input type="radio" name="oklad-additional" option_id="269" option_id_value="" price_prefix="+" price="0.0000" value="1170" id="oklad-52"></span>
+										<img src="https://fakro.pro/image/cache/catalog/EZV оклад/меттталочерепица-47x47.jpg" alt="EZV — ↕ до 45 мм (метало-черепица, шифер и др.)" class="img-thumbnail"> EZV — ↕ до 45 мм (метало-черепица, шифер и др.)                                              </label>
+								</div>
+								<div class="radio">
+									<label>
+										<span style="margin-top: 18px;float: left;"><input type="radio" name="oklad-additional" option_id="270" option_id_value="" price_prefix="+" price="0.0000" value="1170" id="oklad-53"></span>
+										<img src="https://fakro.pro/image/cache/catalog/EHN оклад/ВЫСОКОПРОФИЛИРОВАННЫЕ-47x47.jpg" alt="EHN — ↕ от 45-90мм (натуральная черепица, шифер и др.)" class="img-thumbnail"> EHN — ↕ от 45-90мм (натуральная черепица, шифер и др.)                                            </label>
+								</div>
+								<div class="radio">
+									<label>
+										<span style="margin-top: 18px;float: left;"><input type="radio" name="oklad-additional" option_id="271" option_id_value="" price_prefix="+" price="0.0000" value="1170" id="oklad-54"></span>
+										<img src="https://fakro.pro/image/cache/catalog/EHN-AT Thermo оклад/ТЕРМО-47x47.jpg" alt="EHV-AT Thermo — с дополнительной теплоизоляцией" class="img-thumbnail"> EHV-AT Thermo — с дополнительной теплоизоляцией                                            </label>
+								</div>
+								<div class="radio">
+									<label>
+										<span style="margin-top: 18px;float: left;"><input type="radio" name="oklad-additional" checked  price_prefix="+" price="none" value="none" id="oklad-0"></span>
+										<img src="http://fakro.pro/image/no.png"  alt="Оклад не нужен" class="img-thumbnail" style="width: 52px;">Оклад не нужен                                              </label>
+								</div>
 							</div>
 						</div>
-						</div>
+						<?php } ?>
 					</div>
 
 					<!-- product reccurings -->
@@ -800,7 +802,7 @@ function getChar(event) {
 				enabled:true
 			}
 		});
-
+		if($('#input-oklad270').length){
         $($('[data-attr~="size-custom"]')).on('change', function() {
 //            alert( this.value );
 	    	console.log($('[data-attr~="size-custom"]').children("option").filter(":selected").attr('data-size'));
@@ -837,6 +839,7 @@ function getChar(event) {
                 $('.price-oklad').html(' +' + $('input:radio[name=oklad-additional]:checked').attr('price') + ' оклад');
             }
         });
+		}
 	});
 	//-->
 </script> 

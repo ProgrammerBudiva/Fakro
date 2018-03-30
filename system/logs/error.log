@@ -771,3 +771,4 @@
 2018-03-26 8:52:57 - PHP Notice:  Undefined variable: class in /var/www/fakro1/catalog/view/theme/theme574/template/information/contact.tpl on line 9
 2018-03-26 8:53:43 - PHP Notice:  Undefined variable: class in /var/www/fakro1/catalog/view/theme/theme574/template/information/contact.tpl on line 9
 2018-03-26 13:15:29 - PHP Notice:  Undefined variable: class in /var/www/fakro1/catalog/view/theme/theme574/template/information/contact.tpl on line 9
+2018-03-30 7:33:39 - PHP Notice:  Undefined variable: class in /var/www/fakro1/catalog/view/theme/theme574/template/checkout/cart.tpl on line 24
