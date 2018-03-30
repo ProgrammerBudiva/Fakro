@@ -84,7 +84,7 @@ class ControllerCommonSeoUrl extends Controller {
 					$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "url_alias WHERE `query` = '" . $this->db->escape($key . '=' . (int)$value) . "'");
 
 					if ($query->num_rows && $query->row['keyword']) {
-						$url .= '/' . $query->row['keyword'];
+						$url = '/' . $query->row['keyword'];
 
 						unset($data[$key]);
 					}
