@@ -4494,8 +4494,8 @@ input#input-coupon {
     letter-spacing: 0;
   }
   .banners.banner-3 a .desc .tx{
-    font-size: 23px;
-    letter-spacing: 0;
+    font-size: 23px!important;
+    letter-spacing: 0!important;
   }
 
 }
