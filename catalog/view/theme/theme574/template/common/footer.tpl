@@ -135,4 +135,40 @@
         var sn = d.getElementsByTagName(s)[0]; sn.parentNode.insertBefore(gcw, sn);
     })(document, window, 'script');
 </script>
+<style>
+    #bingc-phone-button svg.bingc-phone-button-circle
+    circle.bingc-phone-button-circle-inside {
+        fill: #3fbc56 !important;
+    }
+    #bingc-phone-button:hover svg.bingc-phone-button-circle
+    circle.bingc-phone-button-circle-inside {
+        fill: #3fbc56 !important;
+    }
+    #bingc-phone-button div.bingc-phone-button-tooltip {
+        background: #6ada7f !important;
+    }
+    #bingc-phone-button div.bingc-phone-button-tooltip svg.bingc-phone-button-arrow
+    polyline {
+        fill: #6ada7f!important;
+    }
+    #bingc-passive-phone-form-button {
+        #3fbc56 !important;
+    }
+    #bingc-passive div.bingc-passive-overlay div.bingc-passive-content div.bingc-passive-get-phone-form form.bingc-passive-get-phone-form a.bingc-passive-phone-form-button:active {
+        background: #3fbc56 !important;
+    }
+    #bingc-passive div.bingc-passive-overlay div.bingc-passive-content div.bingc-passive-get-phone-form form.bingc-passive-get-phone-form a.bingc-passive-phone-form-button {
+        background: #3fbc56 !important;
+    }
+    #bingc-passive div.bingc-passive-overlay div.bingc-passive-content div.bingc-passive-get-phone-form form.bingc-passive-get-phone-form a.bingc-passive-phone-form-button:hover {
+        background: #3fbc56 !important;
+    }
+    #bingc-active div.bingc-active-overlay div.bingc-active-content div.bingc-active-get-phone-form form.bingc-active-get-phone-form a.bingc-active-phone-form-button {
+        background: #3fbc56 !important;
+    }
+
+    #bingc-active div.bingc-active-overlay div.bingc-active-content div.bingc-active-get-phone-form form.bingc-active-get-phone-form a.bingc-active-phone-form-button:hover {
+        background: #3fbc56 !important;
+    }
+</style>
 </body></html>
