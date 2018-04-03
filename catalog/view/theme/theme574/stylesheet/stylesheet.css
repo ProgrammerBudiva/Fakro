@@ -1970,8 +1970,8 @@ div.required .control-label:before {
       margin-top: -69px; }
       .box_html.banners .row .banner-4 a .desc .tx {
         color: #fff;
-        font-size: 26px;
-        /*line-height: 68px;*/
+        font-size: 22px;
+        line-height: 49px;
         /*letter-spacing: 18px;*/
       }
     .box_html.banners .row .banner-4 a:hover img, .box_html.banners .row .banner-4 a:active img, .box_html.banners .row .banner-4 a:focus img {
@@ -2083,9 +2083,9 @@ div.required .control-label:before {
   .box_html.banners .row .banner-4 a .desc {
     margin-top: -66px; }
     .box_html.banners .row .banner-4 a .desc .tx {
-      font-size: 41px;
-      letter-spacing: 11px;
-      line-height: 43px; }
+      font-size: 24px;
+      letter-spacing: 0!important;
+      line-height: 34px; }
   .box_html.banners .row .banner-5 a .desc {
     margin-top: -32px; }
     .box_html.banners .row .banner-5 a .desc .tx {
@@ -4557,4 +4557,5 @@ input#input-coupon {
   background: rgba(255, 255, 255, 0.8)!important;
   letter-spacing: 5px!important;
   line-height: 44px!important;
+  border: 1px solid #acafb2;
 }
