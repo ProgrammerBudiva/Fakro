@@ -37,7 +37,7 @@
                                 <label class="control-label" for="input-payment-lastname">Фамилия</label>
                                 <input type="text" name="lastname" value="" placeholder="Фамилия" id="input-payment-lastname" class="form-control" />
                             </div>
-                            <div class="form-group">
+                            <div class="form-group required">
                                 <label class="control-label" for="input-payment-email">E-Mail</label>
                                 <input type="text" name="email" value="" placeholder="E-Mail" id="input-payment-email" class="form-control" />
                             </div>

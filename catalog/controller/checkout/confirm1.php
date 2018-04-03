@@ -9,6 +9,9 @@ class ControllerCheckoutConfirm1 extends Controller {
         if(empty($this->request->post['lastname'])) {
             $json['error'][] = 'Не указана фамилия!';
         }
+        if(empty($this->request->post['email'])) {
+            $json['error'][] = 'Не указан email!';
+        }
         if(empty($this->request->post['telephone'])) {
             $json['error'][] = 'Не указан телефон!';
         }
