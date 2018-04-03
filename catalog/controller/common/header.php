@@ -147,4 +147,22 @@ class ControllerCommonHeader extends Controller {
 			return $this->load->view('default/template/common/header.tpl', $data);
 		}
 	}
+
+    public function callback(){
+        if (empty($this->request->post['callback_phone'])){
+            echo json_encode(['error'=>'empty_phone']);
+        }
+        $page_link = htmlentities($this->request->server['HTTP_REFERER']);
+
+        $text = 'Перезвоните мне. <br> Страница: <a href=" ' . $page_link . '">' . $page_link . '</a> <br> Номер телефона: ' . $this->request->post['callback_phone'];
+
+        $mail = new Mail($this->config->get('config_mail'));
+        $mail->setTo($this->config->get('config_email'));
+        $mail->setFrom($this->config->get('config_email'));
+        $mail->setSender($this->config->get('config_name'));
+        $mail->setSubject('Обратная связь');
+        $mail->setHtml($text);
+        $mail->send();
+        echo json_encode('ok');
+    }
 }

@@ -32,8 +32,8 @@
                     <div class="footer-call-me">
                         <input type="text" class="footer-call-me-input" id="footer-phone" placeholder="+38 (___) ___-__-__">
                     </div>
-                    <div class="call_me_div">
-                        <span>Перезвоните мне</span>
+                    <div class="call_me_div" id="phone_me">
+                        <span >Перезвоните мне</span>
                     </div>
                 </div>
             </div>
@@ -72,6 +72,56 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.13/jquery.mask.min.js"></script>
 <script>
     $('#footer-phone').mask("+38 (999) 999-99-99");
+    $('.phone-input').mask("+38 (999) 999-99-99");
+
+    $('#send_phone').click(function(){
+//        $('.phone-input').addClass('has-error');
+        var phone = $('.phone-input').removeClass('has-error').val();
+        if(phone.length === 0){
+            $('.phone-input').addClass('has-error');
+        }else{
+            $.ajax({
+                url: 'index.php?route=common/header/callback',
+                method: "post",
+                data:{callback_phone: phone},
+                success: function () {
+                    $('.phone-input').hide().val('');
+                    $('#send_phone').html('Отправлено!');
+
+                    setTimeout(function () {
+                        $('#demo').removeClass('in');
+                        $('.phone-input').show().val('');
+                        $('#send_phone').html('Отправить');
+                    }, 2000);
+
+                }
+            });
+        }
+    });
+
+    $('#phone_me').click(function(){
+//        $('.phone-input').addClass('has-error');
+        var phone = $('#footer-phone').removeClass('has-error').val();
+        if(phone.length === 0){
+            $('#footer-phone').addClass('has-error');
+        }else{
+            $.ajax({
+                url: 'index.php?route=common/header/callback',
+                method: "post",
+                data:{callback_phone: phone},
+                success: function () {
+                    $('#footer-phone').hide().val('');
+                    $('#phone_me span').html('Отправлено!');
+
+                    setTimeout(function () {
+                        $('#footer-phone').show().val('');
+                        $('#phone_me span').html('Отправить');
+                    }, 2000);
+
+                }
+            });
+        }
+    });
 
     $('#search-2').click(function(){
        $('#search').toggleClass('active-gadget');

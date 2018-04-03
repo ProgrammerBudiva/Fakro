@@ -150,7 +150,8 @@
 
 		</div>
 			<div id="demo" class="phone_content collapse">
-				<input type="text"  class="phone-input">
+				<input placeholder="+38 (___) ___-__-__" type="text" name="callback_phone"  class="phone-input">
+				<div id="send_phone">Отправить</div>
 			</div>
 		</div>
 
