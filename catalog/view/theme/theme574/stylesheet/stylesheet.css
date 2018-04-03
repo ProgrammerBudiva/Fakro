@@ -4489,6 +4489,10 @@ input#input-coupon {
     min-width: 90%;
     margin-top: 10px;
   }
+  .box_html.banners .row .banner-4 a .desc .tx{
+    font-size: 20px;
+    letter-spacing: 0;
+  }
 
 }
 
