@@ -4537,5 +4537,6 @@ input#input-coupon {
   z-index: 99999;
 }
 .banner-6.banner-3 a .desc .tx{
-  background: rgba(14, 148, 38,0.8)
+  color: rgba(14, 148, 38,0.8)!important;
+  background: rgba(0, 0, 0, 0.8)!important;
 }
