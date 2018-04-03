@@ -1961,18 +1961,19 @@ div.required .control-label:before {
         line-height: 70px;
         letter-spacing: 12px;
         color: #fff;
-        background: rgba(245, 98, 86, 0.8); }
+        background: rgba(58,169,53, 0.8); }
     .box_html.banners .row .banner-3 a:hover .desc, .box_html.banners .row .banner-3 a:active .desc, .box_html.banners .row .banner-3 a:focus .desc {
       margin-top: 0px; }
     .box_html.banners .row .banner-3 a:hover img, .box_html.banners .row .banner-3 a:active img, .box_html.banners .row .banner-3 a:focus img {
       opacity: 1; }
     .box_html.banners .row .banner-4 a .desc {
-      margin-top: -102px; }
+      margin-top: -69px; }
       .box_html.banners .row .banner-4 a .desc .tx {
         color: #fff;
-        font-size: 64px;
-        line-height: 68px;
-        letter-spacing: 18px; }
+        font-size: 26px;
+        /*line-height: 68px;*/
+        /*letter-spacing: 18px;*/
+      }
     .box_html.banners .row .banner-4 a:hover img, .box_html.banners .row .banner-4 a:active img, .box_html.banners .row .banner-4 a:focus img {
       opacity: .8; }
     .box_html.banners .row .banner-5 a .desc {

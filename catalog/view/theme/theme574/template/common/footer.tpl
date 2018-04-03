@@ -30,7 +30,7 @@
             <div class="footer_box">
                 <div class="call_me toggle-wrap">
                     <div class="footer-call-me">
-                        <input type="text" class="footer-call-me-input" id="footer-phone" placeholder="+38 (___)-___-__-__">
+                        <input type="text" class="footer-call-me-input" id="footer-phone" placeholder="+38 (___) ___-__-__">
                     </div>
                     <div class="call_me_div">
                         <span>Перезвоните мне</span>

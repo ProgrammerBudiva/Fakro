@@ -375,7 +375,7 @@ class ControllerCheckoutConfirm1 extends Controller {
 
 //            $data['payment'] = $this->load->controller('payment/' . $this->session->data['payment_method']['code']);
             $this->response->addHeader('Content-Type: application/json');
-            $this->response->setOutput(json_encode(['success'=> $this->url->link('checkout/success')]));
+            $this->response->setOutput(json_encode(['success'=> $this->url->link('checkout/success', '', true)]));
         } else {
             $data['redirect'] = $redirect;
         }
