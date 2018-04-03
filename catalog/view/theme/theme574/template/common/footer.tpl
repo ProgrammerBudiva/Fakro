@@ -47,7 +47,7 @@
 			        </span>
                 </div>
                 <div class="free-phone">звонок бесплатный</div>
-                <div class="mail">info@fakro.pro</div>
+                <div class="mail"><a href="mailto:info@fakro.pro">info@fakro.pro</a></div>
             </div>
         </div>
 		<div class="col-sm-2 cast" style="margin-top: 3px;">
