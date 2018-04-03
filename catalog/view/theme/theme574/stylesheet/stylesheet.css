@@ -4479,7 +4479,7 @@ input#input-coupon {
 .mfp-wrap .mfp-arrow-right:before{border-left:27px solid #FF6600;}
 .white-popup{position:relative;background:#FFF;padding:25px;margin:50px auto;text-align:center;}
 .no-bg-popup{position:relative;background:none;padding:25px;margin:50px auto;text-align:center;max-width:600px;width:100%;background-color:#fff;}
-#succes-popup{width: 500px;height:auto;}
+#succes-popup{max-width: 500px;height:auto;}
 /*End Magnific popup*/
 
 .checkout_row{
