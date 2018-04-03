@@ -4491,7 +4491,7 @@ input#input-coupon {
   }
   .box_html.banners .row .banner-4 a .desc .tx{
     font-size: 20px;
-    letter-spacing: 0;
+    letter-spacing: 0!important;
   }
   .banners.banner-3 a .desc .tx{
     font-size: 23px!important;
