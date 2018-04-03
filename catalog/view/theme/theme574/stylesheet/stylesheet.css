@@ -4480,6 +4480,9 @@ input#input-coupon {
   footer .call_me_div {
       display: block;
   }
+  .box_html.banners .banner-2.col-sm-7, .box_html.banners .banner-3.col-sm-5, .box_html.banners > .row > .col-sm-5, .box_html.banners .banner-6.col-sm-7{
+    width: 100%;
+  }
 }
 @media screen and (max-width: 480px) {
   .static-menu-item{
