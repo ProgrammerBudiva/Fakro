@@ -4471,6 +4471,12 @@ input#input-coupon {
   .footer_box .mail{
     margin-bottom: 20px;
   }
+  .call_me_div{
+    display: none;
+  }
+  footer .call_me_div {
+      display: block;
+  }
 }
 @media screen and (max-width: 480px) {
   .static-menu-item{
